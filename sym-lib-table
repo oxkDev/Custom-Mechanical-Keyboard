@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Weact_Blackpill_STM32F411CEU6")(type "KiCad")(uri "${KIPRJMOD}/Weact_Blackpill/Weact_Blackpill_STM32F411CEU6.kicad_sym")(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/Keyboard_Parts/Keyboard_Parts_Sch/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "mkl27z256vfm4")(type "Legacy")(uri "${KIPRJMOD}/Keyboard_Parts/Keyboard_Parts_Sch/mkl27z256vfm4.lib")(options "")(descr ""))
+)
