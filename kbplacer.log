@@ -2,4 +2,600 @@ INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
 INFO: kbplacer_plugin_action.py:71: Python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
 INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.4 with 4.2.2 msw (phoenix) wxWidgets 3.2.8
 INFO: kbplacer_dialog.py:631: Language: en
-INFO: kbplacer_plugin_action.py:88: GUI state: {"layout_path": "C:\\Users\\oxkxu\\OneDrive\\Personal\\Development\\Electronics\\Mechanical Keyboard\\Keyboard Layout Editor - Custom Layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -7.2, "y": 5.5, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": -6.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "C:\\Users\\oxkxu\\Personal\\Electronics\\Mechanical Keyboard\\Keyboard Layout Editor - Custom Layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -7.2, "y": 5.5, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": -5.3, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 5.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Row2', 'Col8'}): ['SW40'], frozenset({'Row2', 'Col15'}): ['SW46'], frozenset({'Row3', 'Col13'}): ['SW59'], frozenset({'Row2', 'Col4'}): ['SW36'], frozenset({'Col11', 'Row2'}): ['SW43'], frozenset({'Col10', 'Row1'}): ['SW27'], frozenset({'Col6', 'Row4'}): ['SW67'], frozenset({'Col7', 'Row3'}): ['SW54'], frozenset({'Row3', 'Col5'}): ['SW52'], frozenset({'Col11', 'Row1'}): ['SW28'], frozenset({'Col3', 'Row2'}): ['SW35'], frozenset({'Row1', 'Col8'}): ['SW25'], frozenset({'Row1', 'Col6'}): ['SW23'], frozenset({'Col10', 'Row2'}): ['SW42'], frozenset({'Row3', 'Col9'}): ['SW56'], frozenset({'Row5', 'Col9'}): ['SW79'], frozenset({'Row2', 'Col14'}): ['SW45'], frozenset({'Col3', 'Row4'}): ['SW64'], frozenset({'Col8', 'Row0'}): ['SW9'], frozenset({'Row3', 'Col1'}): ['SW48'], frozenset({'Col2', 'Row1'}): ['SW19'], frozenset({'Col9', 'Row4'}): ['SW70'], frozenset({'Row3', 'Col6'}): ['SW53'], frozenset({'Col14', 'Row4'}): ['SW73'], frozenset({'Row5', 'Col1'}): ['SW76'], frozenset({'Row1', 'Col4'}): ['SW21'], frozenset({'Row2', 'Col5'}): ['SW37'], frozenset({'Col2', 'Row2'}): ['SW34'], frozenset({'Row0', 'Col0'}): ['SW1'], frozenset({'Col12', 'Row4'}): ['SW72'], frozenset({'Col15', 'Row0'}): ['SW16'], frozenset({'Row3', 'Col4'}): ['SW51'], frozenset({'Row2', 'Col12'}): ['SW44'], frozenset({'Row1', 'Col0'}): ['SW17'], frozenset({'Row1', 'Col12'}): ['SW29'], frozenset({'Row1', 'Col13'}): ['SW30'], frozenset({'Row3', 'Col15'}): ['SW60'], frozenset({'Col15', 'Row1'}): ['SW31'], frozenset({'Col3', 'Row0'}): ['SW4'], frozenset({'Col7', 'Row0'}): ['SW8'], frozenset({'Row5', 'Col0'}): ['SW75'], frozenset({'Col14', 'Row0'}): ['SW15'], frozenset({'Row0', 'Col9'}): ['SW10'], frozenset({'Row0', 'Col6'}): ['SW7'], frozenset({'Row1', 'Col1'}): ['SW18'], frozenset({'Row3', 'Col0'}): ['SW47'], frozenset({'Row2', 'Col1'}): ['SW33'], frozenset({'Col3', 'Row1'}): ['SW20'], frozenset({'Col8', 'Row4'}): ['SW69'], frozenset({'Col1', 'Row4'}): ['SW62'], frozenset({'Col11', 'Row3'}): ['SW58'], frozenset({'Col14', 'Row5'}): ['SW83'], frozenset({'Row2', 'Col6'}): ['SW38'], frozenset({'Row2', 'Col0'}): ['SW32'], frozenset({'Row0', 'Col12'}): ['SW13'], frozenset({'Row0', 'Col4'}): ['SW5'], frozenset({'Row1', 'Col5'}): ['SW22'], frozenset({'Col2', 'Row3'}): ['SW49'], frozenset({'Row3', 'Col8'}): ['SW55'], frozenset({'Col15', 'Row5'}): ['SW84'], frozenset({'Col7', 'Row1'}): ['SW24'], frozenset({'Col10', 'Row4'}): ['SW71'], frozenset({'Col10', 'Row0'}): ['SW11'], frozenset({'Row0', 'Col5'}): ['SW6'], frozenset({'Col2', 'Row5'}): ['SW77'], frozenset({'Col11', 'Row0'}): ['SW12'], frozenset({'Col5', 'Row5'}): ['SW78'], frozenset({'Col2', 'Row0'}): ['SW3'], frozenset({'Col13', 'Row0'}): ['SW14'], frozenset({'Col3', 'Row3'}): ['SW50'], frozenset({'Col10', 'Row5'}): ['SW80'], frozenset({'Col4', 'Row4'}): ['SW65'], frozenset({'Col13', 'Row5'}): ['SW82'], frozenset({'Col7', 'Row2'}): ['SW39'], frozenset({'Col5', 'Row4'}): ['SW66'], frozenset({'Col15', 'Row4'}): ['SW74'], frozenset({'Row0', 'Col1'}): ['SW2'], frozenset({'Col10', 'Row3'}): ['SW57'], frozenset({'Row1', 'Col9'}): ['SW26'], frozenset({'Row2', 'Col9'}): ['SW41'], frozenset({'Row5', 'Col12'}): ['SW81'], frozenset({'Col2', 'Row4'}): ['SW63'], frozenset({'Col0', 'Row4'}): ['SW61'], frozenset({'Col7', 'Row4'}): ['SW68']})
+DEBUG: key_placer.py:145: Diodes by switch: {'SW57': ['D57'], 'SW55': ['D55'], 'SW19': ['D19'], 'SW78': ['D78'], 'SW6': ['D6'], 'SW10': ['D10'], 'SW71': ['D71'], 'SW4': ['D4'], 'SW42': ['D42'], 'SW63': ['D63'], 'SW32': ['D32'], 'SW1': ['D1'], 'SW3': ['D3'], 'SW31': ['D31'], 'SW75': ['D75'], 'SW40': ['D40'], 'SW64': ['D64'], 'SW83': ['D83'], 'SW84': ['D84'], 'SW26': ['D26'], 'SW7': ['D7'], 'SW66': ['D66'], 'SW74': ['D74'], 'SW80': ['D80'], 'SW38': ['D38'], 'SW54': ['D54'], 'SW14': ['D14'], 'SW72': ['D72'], 'SW62': ['D62'], 'SW41': ['D41'], 'SW13': ['D13'], 'SW17': ['D17'], 'SW52': ['D52'], 'SW11': ['D11'], 'SW61': ['D61'], 'SW36': ['D36'], 'SW49': ['D49'], 'SW45': ['D45'], 'SW47': ['D47'], 'SW8': ['D8'], 'SW21': ['D21'], 'SW81': ['D81'], 'SW50': ['D50'], 'SW48': ['D48'], 'SW23': ['D23'], 'SW27': ['D27'], 'SW39': ['D39'], 'SW29': ['D29'], 'SW70': ['D70'], 'SW34': ['D34'], 'SW25': ['D25'], 'SW82': ['D82'], 'SW43': ['D43'], 'SW9': ['D9'], 'SW37': ['D37'], 'SW12': ['D12'], 'SW18': ['D18'], 'SW24': ['D24'], 'SW58': ['D58'], 'SW59': ['D59'], 'SW15': ['D15'], 'SW65': ['D65'], 'SW22': ['D22'], 'SW53': ['D53'], 'SW56': ['D56'], 'SW35': ['D35'], 'SW51': ['D51'], 'SW60': ['D60'], 'SW77': ['D77'], 'SW16': ['D16'], 'SW79': ['D79'], 'SW44': ['D44'], 'SW46': ['D46'], 'SW28': ['D28'], 'SW5': ['D5'], 'SW20': ['D20'], 'SW2': ['D2'], 'SW76': ['D76'], 'SW68': ['D68'], 'SW69': ['D69'], 'SW30': ['D30'], 'SW67': ['D67'], 'SW33': ['D33'], 'SW73': ['D73']}
+INFO: kle_serial.py:931: User layout: [[{'a': 6}, 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', {'a': 5}, 'PrtSc\nNmLk', 'Pause\nScrLk', 'Delete\nInsert'], [{'a': 4}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'a': 6, 'w': 2}, 'Backspace', 'Home'], [{'a': 4, 'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'a': 6}, 'Page Up'], [{'a': 4, 'w': 1.5}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'a': 6, 'w': 2.5}, 'Enter', 'Page Down'], [{'w': 2}, 'Shift', {'a': 4}, 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'a': 6, 'w': 2}, 'Shift', {'a': 7}, '↑', {'a': 6}, 'End'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 5.5}, '', {'a': 6, 'w': 1.25}, 'Alt', {'w': 1.25}, 'Fn', {'w': 1.25}, 'Ctrl', {'a': 7}, '←', '↓', '→']]
+DEBUG: key_placer.py:724: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=53, y_ortholinear_keys=84, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW22 footprint position: (133350000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW23 footprint position: (152400000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW24 footprint position: (171450000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW25 footprint position: (190500000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW26 footprint position: (209550000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW27 footprint position: (228600000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW28 footprint position: (247650000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW29 footprint position: (266700000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW30 footprint position: (295275000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW31 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting SW32 footprint position: (42862500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW33 footprint position: (66675000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW34 footprint position: (85725000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW35 footprint position: (104775000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW36 footprint position: (123825000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW37 footprint position: (142875000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW38 footprint position: (161925000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW39 footprint position: (180975000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW40 footprint position: (200025000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW41 footprint position: (219075000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW42 footprint position: (238125000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW43 footprint position: (257175000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW44 footprint position: (276225000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW45 footprint position: (300037500, 76200000)
+DEBUG: board_modifier.py:94: Setting SW46 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting SW47 footprint position: (42862500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW48 footprint position: (66675000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW49 footprint position: (85725000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW50 footprint position: (104775000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW51 footprint position: (123825000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW52 footprint position: (142875000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW53 footprint position: (161925000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW54 footprint position: (180975000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW55 footprint position: (200025000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW56 footprint position: (219075000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW57 footprint position: (238125000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW58 footprint position: (257175000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW59 footprint position: (290512500, 95250000)
+DEBUG: board_modifier.py:94: Setting SW60 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting SW61 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW62 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW63 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW64 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW65 footprint position: (133350000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW66 footprint position: (152400000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW67 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW68 footprint position: (190500000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW69 footprint position: (209550000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW70 footprint position: (228600000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW71 footprint position: (247650000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW72 footprint position: (276225000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW73 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW74 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:94: Setting SW75 footprint position: (40481250, 133350000)
+DEBUG: board_modifier.py:94: Setting SW76 footprint position: (64293750, 133350000)
+DEBUG: board_modifier.py:94: Setting SW77 footprint position: (88106250, 133350000)
+DEBUG: board_modifier.py:94: Setting SW78 footprint position: (152400000, 133350000)
+DEBUG: board_modifier.py:94: Setting SW79 footprint position: (216693750, 133350000)
+DEBUG: board_modifier.py:94: Setting SW80 footprint position: (240506250, 133350000)
+DEBUG: board_modifier.py:94: Setting SW81 footprint position: (264318750, 133350000)
+DEBUG: board_modifier.py:94: Setting SW82 footprint position: (285750000, 133350000)
+DEBUG: board_modifier.py:94: Setting SW83 footprint position: (304800000, 133350000)
+DEBUG: board_modifier.py:94: Setting SW84 footprint position: (323850000, 133350000)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=-7.2, y=5.5, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (30900000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (49950000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (69000000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (88050000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (107100000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (126150000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (145200000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (164250000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (183300000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (202350000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (221400000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (240450000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (259500000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (278550000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (297600000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (316650000, 43600000)
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (30900000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (49950000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (69000000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (88050000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (107100000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (133350000, 57150000)
+DEBUG: board_modifier.py:94: Setting D22 footprint position: (126150000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (152400000, 57150000)
+DEBUG: board_modifier.py:94: Setting D23 footprint position: (145200000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (171450000, 57150000)
+DEBUG: board_modifier.py:94: Setting D24 footprint position: (164250000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (190500000, 57150000)
+DEBUG: board_modifier.py:94: Setting D25 footprint position: (183300000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (209550000, 57150000)
+DEBUG: board_modifier.py:94: Setting D26 footprint position: (202350000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (228600000, 57150000)
+DEBUG: board_modifier.py:94: Setting D27 footprint position: (221400000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (247650000, 57150000)
+DEBUG: board_modifier.py:94: Setting D28 footprint position: (240450000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (266700000, 57150000)
+DEBUG: board_modifier.py:94: Setting D29 footprint position: (259500000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (295275000, 57150000)
+DEBUG: board_modifier.py:94: Setting D30 footprint position: (288075000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:94: Setting D31 footprint position: (316650000, 62650000)
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (42862500, 76200000)
+DEBUG: board_modifier.py:94: Setting D32 footprint position: (35662500, 81700000)
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (66675000, 76200000)
+DEBUG: board_modifier.py:94: Setting D33 footprint position: (59475000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (85725000, 76200000)
+DEBUG: board_modifier.py:94: Setting D34 footprint position: (78525000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (104775000, 76200000)
+DEBUG: board_modifier.py:94: Setting D35 footprint position: (97575000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (123825000, 76200000)
+DEBUG: board_modifier.py:94: Setting D36 footprint position: (116625000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (142875000, 76200000)
+DEBUG: board_modifier.py:94: Setting D37 footprint position: (135675000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (161925000, 76200000)
+DEBUG: board_modifier.py:94: Setting D38 footprint position: (154725000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (180975000, 76200000)
+DEBUG: board_modifier.py:94: Setting D39 footprint position: (173775000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (200025000, 76200000)
+DEBUG: board_modifier.py:94: Setting D40 footprint position: (192825000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (219075000, 76200000)
+DEBUG: board_modifier.py:94: Setting D41 footprint position: (211875000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (238125000, 76200000)
+DEBUG: board_modifier.py:94: Setting D42 footprint position: (230925000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (257175000, 76200000)
+DEBUG: board_modifier.py:94: Setting D43 footprint position: (249975000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (276225000, 76200000)
+DEBUG: board_modifier.py:94: Setting D44 footprint position: (269025000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (300037500, 76200000)
+DEBUG: board_modifier.py:94: Setting D45 footprint position: (292837500, 81700000)
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:94: Setting D46 footprint position: (316650000, 81700000)
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (42862500, 95250000)
+DEBUG: board_modifier.py:94: Setting D47 footprint position: (35662500, 100750000)
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (66675000, 95250000)
+DEBUG: board_modifier.py:94: Setting D48 footprint position: (59475000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (85725000, 95250000)
+DEBUG: board_modifier.py:94: Setting D49 footprint position: (78525000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (104775000, 95250000)
+DEBUG: board_modifier.py:94: Setting D50 footprint position: (97575000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (123825000, 95250000)
+DEBUG: board_modifier.py:94: Setting D51 footprint position: (116625000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (142875000, 95250000)
+DEBUG: board_modifier.py:94: Setting D52 footprint position: (135675000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (161925000, 95250000)
+DEBUG: board_modifier.py:94: Setting D53 footprint position: (154725000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (180975000, 95250000)
+DEBUG: board_modifier.py:94: Setting D54 footprint position: (173775000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (200025000, 95250000)
+DEBUG: board_modifier.py:94: Setting D55 footprint position: (192825000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (219075000, 95250000)
+DEBUG: board_modifier.py:94: Setting D56 footprint position: (211875000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (238125000, 95250000)
+DEBUG: board_modifier.py:94: Setting D57 footprint position: (230925000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (257175000, 95250000)
+DEBUG: board_modifier.py:94: Setting D58 footprint position: (249975000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (290512500, 95250000)
+DEBUG: board_modifier.py:94: Setting D59 footprint position: (283312500, 100750000)
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:94: Setting D60 footprint position: (316650000, 100750000)
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:94: Setting D61 footprint position: (40425000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:94: Setting D62 footprint position: (69000000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:94: Setting D63 footprint position: (88050000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:94: Setting D64 footprint position: (107100000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (133350000, 114300000)
+DEBUG: board_modifier.py:94: Setting D65 footprint position: (126150000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW66 footprint position: (152400000, 114300000)
+DEBUG: board_modifier.py:94: Setting D66 footprint position: (145200000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW67 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:94: Setting D67 footprint position: (164250000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW68 footprint position: (190500000, 114300000)
+DEBUG: board_modifier.py:94: Setting D68 footprint position: (183300000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW69 footprint position: (209550000, 114300000)
+DEBUG: board_modifier.py:94: Setting D69 footprint position: (202350000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW70 footprint position: (228600000, 114300000)
+DEBUG: board_modifier.py:94: Setting D70 footprint position: (221400000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW71 footprint position: (247650000, 114300000)
+DEBUG: board_modifier.py:94: Setting D71 footprint position: (240450000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW72 footprint position: (276225000, 114300000)
+DEBUG: board_modifier.py:94: Setting D72 footprint position: (269025000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW73 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:94: Setting D73 footprint position: (297600000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW74 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:94: Setting D74 footprint position: (316650000, 119800000)
+DEBUG: board_modifier.py:107: Getting SW75 footprint position: (40481250, 133350000)
+DEBUG: board_modifier.py:94: Setting D75 footprint position: (33281250, 138850000)
+DEBUG: board_modifier.py:107: Getting SW76 footprint position: (64293750, 133350000)
+DEBUG: board_modifier.py:94: Setting D76 footprint position: (57093750, 138850000)
+DEBUG: board_modifier.py:107: Getting SW77 footprint position: (88106250, 133350000)
+DEBUG: board_modifier.py:94: Setting D77 footprint position: (80906250, 138850000)
+DEBUG: board_modifier.py:107: Getting SW78 footprint position: (152400000, 133350000)
+DEBUG: board_modifier.py:94: Setting D78 footprint position: (145200000, 138850000)
+DEBUG: board_modifier.py:107: Getting SW79 footprint position: (216693750, 133350000)
+DEBUG: board_modifier.py:94: Setting D79 footprint position: (209493750, 138850000)
+DEBUG: board_modifier.py:107: Getting SW80 footprint position: (240506250, 133350000)
+DEBUG: board_modifier.py:94: Setting D80 footprint position: (233306250, 138850000)
+DEBUG: board_modifier.py:107: Getting SW81 footprint position: (264318750, 133350000)
+DEBUG: board_modifier.py:94: Setting D81 footprint position: (257118750, 138850000)
+DEBUG: board_modifier.py:107: Getting SW82 footprint position: (285750000, 133350000)
+DEBUG: board_modifier.py:94: Setting D82 footprint position: (278550000, 138850000)
+DEBUG: board_modifier.py:107: Getting SW83 footprint position: (304800000, 133350000)
+DEBUG: board_modifier.py:94: Setting D83 footprint position: (297600000, 138850000)
+DEBUG: board_modifier.py:107: Getting SW84 footprint position: (323850000, 133350000)
+DEBUG: board_modifier.py:94: Setting D84 footprint position: (316650000, 138850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW40
+DEBUG: board_modifier.py:107: Getting SW40 footprint position: (200025000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED40 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED40 footprint position: (200025000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW46
+DEBUG: board_modifier.py:107: Getting SW46 footprint position: (323850000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED46 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED46 footprint position: (323850000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW59
+DEBUG: board_modifier.py:107: Getting SW59 footprint position: (290512500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED59 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED59 footprint position: (290512500, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW36
+DEBUG: board_modifier.py:107: Getting SW36 footprint position: (123825000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED36 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED36 footprint position: (123825000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW43
+DEBUG: board_modifier.py:107: Getting SW43 footprint position: (257175000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED43 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED43 footprint position: (257175000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW27
+DEBUG: board_modifier.py:107: Getting SW27 footprint position: (228600000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED27 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED27 footprint position: (228600000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW67
+DEBUG: board_modifier.py:107: Getting SW67 footprint position: (171450000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED67 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED67 footprint position: (171450000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW54
+DEBUG: board_modifier.py:107: Getting SW54 footprint position: (180975000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED54 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED54 footprint position: (180975000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW52
+DEBUG: board_modifier.py:107: Getting SW52 footprint position: (142875000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED52 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED52 footprint position: (142875000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW28
+DEBUG: board_modifier.py:107: Getting SW28 footprint position: (247650000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED28 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED28 footprint position: (247650000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW35
+DEBUG: board_modifier.py:107: Getting SW35 footprint position: (104775000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED35 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED35 footprint position: (104775000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW25
+DEBUG: board_modifier.py:107: Getting SW25 footprint position: (190500000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED25 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED25 footprint position: (190500000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW23
+DEBUG: board_modifier.py:107: Getting SW23 footprint position: (152400000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED23 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED23 footprint position: (152400000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW42
+DEBUG: board_modifier.py:107: Getting SW42 footprint position: (238125000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED42 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED42 footprint position: (238125000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW56
+DEBUG: board_modifier.py:107: Getting SW56 footprint position: (219075000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED56 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED56 footprint position: (219075000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW79
+DEBUG: board_modifier.py:107: Getting SW79 footprint position: (216693750, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED79 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED79 footprint position: (216693750, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW45
+DEBUG: board_modifier.py:107: Getting SW45 footprint position: (300037500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED45 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED45 footprint position: (300037500, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW64
+DEBUG: board_modifier.py:107: Getting SW64 footprint position: (114300000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED64 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED64 footprint position: (114300000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED9 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED9 footprint position: (190500000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW48
+DEBUG: board_modifier.py:107: Getting SW48 footprint position: (66675000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED48 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED48 footprint position: (66675000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (76200000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED19 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED19 footprint position: (76200000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW70
+DEBUG: board_modifier.py:107: Getting SW70 footprint position: (228600000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED70 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED70 footprint position: (228600000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW53
+DEBUG: board_modifier.py:107: Getting SW53 footprint position: (161925000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED53 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED53 footprint position: (161925000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW73
+DEBUG: board_modifier.py:107: Getting SW73 footprint position: (304800000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED73 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED73 footprint position: (304800000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW76
+DEBUG: board_modifier.py:107: Getting SW76 footprint position: (64293750, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED76 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED76 footprint position: (64293750, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW21
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (114300000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED21 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED21 footprint position: (114300000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW37
+DEBUG: board_modifier.py:107: Getting SW37 footprint position: (142875000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED37 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED37 footprint position: (142875000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW34
+DEBUG: board_modifier.py:107: Getting SW34 footprint position: (85725000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED34 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED34 footprint position: (85725000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED1 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED1 footprint position: (38100000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW72
+DEBUG: board_modifier.py:107: Getting SW72 footprint position: (276225000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED72 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED72 footprint position: (276225000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (323850000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED16 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED16 footprint position: (323850000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW51
+DEBUG: board_modifier.py:107: Getting SW51 footprint position: (123825000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED51 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED51 footprint position: (123825000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW44
+DEBUG: board_modifier.py:107: Getting SW44 footprint position: (276225000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED44 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED44 footprint position: (276225000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (38100000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED17 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED17 footprint position: (38100000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW29
+DEBUG: board_modifier.py:107: Getting SW29 footprint position: (266700000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED29 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED29 footprint position: (266700000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW30
+DEBUG: board_modifier.py:107: Getting SW30 footprint position: (295275000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED30 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED30 footprint position: (295275000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW60
+DEBUG: board_modifier.py:107: Getting SW60 footprint position: (323850000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED60 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED60 footprint position: (323850000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW31
+DEBUG: board_modifier.py:107: Getting SW31 footprint position: (323850000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED31 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED31 footprint position: (323850000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED4 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED4 footprint position: (95250000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED8 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED8 footprint position: (171450000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW75
+DEBUG: board_modifier.py:107: Getting SW75 footprint position: (40481250, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED75 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED75 footprint position: (40481250, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED15 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED15 footprint position: (304800000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED10 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED10 footprint position: (209550000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED7 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED7 footprint position: (152400000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (57150000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED18 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED18 footprint position: (57150000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW47
+DEBUG: board_modifier.py:107: Getting SW47 footprint position: (42862500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED47 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED47 footprint position: (42862500, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW33
+DEBUG: board_modifier.py:107: Getting SW33 footprint position: (66675000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED33 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED33 footprint position: (66675000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW20
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED20 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED20 footprint position: (95250000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW69
+DEBUG: board_modifier.py:107: Getting SW69 footprint position: (209550000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED69 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED69 footprint position: (209550000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW62
+DEBUG: board_modifier.py:107: Getting SW62 footprint position: (76200000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED62 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED62 footprint position: (76200000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW58
+DEBUG: board_modifier.py:107: Getting SW58 footprint position: (257175000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED58 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED58 footprint position: (257175000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW83
+DEBUG: board_modifier.py:107: Getting SW83 footprint position: (304800000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED83 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED83 footprint position: (304800000, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW38
+DEBUG: board_modifier.py:107: Getting SW38 footprint position: (161925000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED38 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED38 footprint position: (161925000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW32
+DEBUG: board_modifier.py:107: Getting SW32 footprint position: (42862500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED32 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED32 footprint position: (42862500, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED13 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED13 footprint position: (266700000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED5 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED5 footprint position: (114300000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW22
+DEBUG: board_modifier.py:107: Getting SW22 footprint position: (133350000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED22 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED22 footprint position: (133350000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW49
+DEBUG: board_modifier.py:107: Getting SW49 footprint position: (85725000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED49 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED49 footprint position: (85725000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW55
+DEBUG: board_modifier.py:107: Getting SW55 footprint position: (200025000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED55 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED55 footprint position: (200025000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW84
+DEBUG: board_modifier.py:107: Getting SW84 footprint position: (323850000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED84 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED84 footprint position: (323850000, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW24
+DEBUG: board_modifier.py:107: Getting SW24 footprint position: (171450000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED24 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED24 footprint position: (171450000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW71
+DEBUG: board_modifier.py:107: Getting SW71 footprint position: (247650000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED71 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED71 footprint position: (247650000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED11 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED11 footprint position: (228600000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED6 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED6 footprint position: (133350000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW77
+DEBUG: board_modifier.py:107: Getting SW77 footprint position: (88106250, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED77 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED77 footprint position: (88106250, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED12 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED12 footprint position: (247650000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW78
+DEBUG: board_modifier.py:107: Getting SW78 footprint position: (152400000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED78 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED78 footprint position: (152400000, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED3 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED3 footprint position: (76200000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED14 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED14 footprint position: (285750000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW50
+DEBUG: board_modifier.py:107: Getting SW50 footprint position: (104775000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED50 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED50 footprint position: (104775000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW80
+DEBUG: board_modifier.py:107: Getting SW80 footprint position: (240506250, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED80 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED80 footprint position: (240506250, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW65
+DEBUG: board_modifier.py:107: Getting SW65 footprint position: (133350000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED65 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED65 footprint position: (133350000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW82
+DEBUG: board_modifier.py:107: Getting SW82 footprint position: (285750000, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED82 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED82 footprint position: (285750000, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW39
+DEBUG: board_modifier.py:107: Getting SW39 footprint position: (180975000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED39 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED39 footprint position: (180975000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW66
+DEBUG: board_modifier.py:107: Getting SW66 footprint position: (152400000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED66 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED66 footprint position: (152400000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW74
+DEBUG: board_modifier.py:107: Getting SW74 footprint position: (323850000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED74 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED74 footprint position: (323850000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional LED2 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED2 footprint position: (57150000, 32800000)
+DEBUG: key_placer.py:854: Placing additional elements for SW57
+DEBUG: board_modifier.py:107: Getting SW57 footprint position: (238125000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional LED57 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED57 footprint position: (238125000, 89950000)
+DEBUG: key_placer.py:854: Placing additional elements for SW26
+DEBUG: board_modifier.py:107: Getting SW26 footprint position: (209550000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional LED26 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED26 footprint position: (209550000, 51850000)
+DEBUG: key_placer.py:854: Placing additional elements for SW41
+DEBUG: board_modifier.py:107: Getting SW41 footprint position: (219075000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional LED41 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED41 footprint position: (219075000, 70900000)
+DEBUG: key_placer.py:854: Placing additional elements for SW81
+DEBUG: board_modifier.py:107: Getting SW81 footprint position: (264318750, 133350000)
+DEBUG: board_modifier.py:84: Searching for optional LED81 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED81 footprint position: (264318750, 128050000)
+DEBUG: key_placer.py:854: Placing additional elements for SW63
+DEBUG: board_modifier.py:107: Getting SW63 footprint position: (95250000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED63 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED63 footprint position: (95250000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW61
+DEBUG: board_modifier.py:107: Getting SW61 footprint position: (47625000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED61 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED61 footprint position: (47625000, 109000000)
+DEBUG: key_placer.py:854: Placing additional elements for SW68
+DEBUG: board_modifier.py:107: Getting SW68 footprint position: (190500000, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional LED68 footprint in C:\Users\oxkxu\Personal\Electronics\Mechanical Keyboard\Custom Mechanical Keyboard\Custom Mechanical Keyboard.kicad_pcb
+DEBUG: board_modifier.py:94: Setting LED68 footprint position: (190500000, 109000000)

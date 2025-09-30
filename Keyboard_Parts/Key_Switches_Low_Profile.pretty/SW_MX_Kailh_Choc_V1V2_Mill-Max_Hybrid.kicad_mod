@@ -137,6 +137,28 @@
 		(uuid "0fb54a69-69f5-46ed-84ba-d7517a1c0807")
 	)
 	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "9a696198-2ab2-4f58-8e80-05171da5cef0")
+	)
+	(fp_rect
+		(start -2.75 -6.405)
+		(end 2.75 -3.455)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e3e4ea11-06c9-4c2d-b2b7-52ef2f62a1a2")
+	)
+	(fp_rect
 		(start -8.25 -8.25)
 		(end 8.25 8.25)
 		(stroke

@@ -5,4 +5,5 @@
   (lib (name "LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/Keyboard_Parts/LED_SMD.pretty")(options "")(descr ""))
   (lib (name "Key_Switches_MX")(type "KiCad")(uri "${KIPRJMOD}/Keyboard_Parts/Key_Switches_MX.pretty")(options "")(descr ""))
   (lib (name "Key_Switches_Low_Profile")(type "KiCad")(uri "${KIPRJMOD}/Keyboard_Parts/Key_Switches_Low_Profile.pretty")(options "")(descr ""))
+  (lib (name "Gateron_LP_Stabilizers")(type "KiCad")(uri "${KIPRJMOD}/Keyboard_Parts/Gateron_LP_Stabilizers.pretty")(options "")(descr ""))
 )

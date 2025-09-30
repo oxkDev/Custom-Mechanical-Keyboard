@@ -419,7 +419,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812MINI"
+		(symbol "LED_SMD:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -435,7 +435,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812MINI"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -444,7 +444,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -454,7 +454,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -491,7 +491,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812MINI_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -501,7 +501,7 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_1"
+			(symbol "SK6812MINI-E_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -598,7 +598,7 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_1_1"
+			(symbol "SK6812MINI-E_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -627,7 +627,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -638,14 +638,14 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -663,7 +663,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4497,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 163.83) (xy 483.87 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0354f048-0af7-47d7-9ab5-92022aa18ba0")
-	)
-	(wire
-		(pts
 			(xy 69.85 231.14) (xy 90.17 231.14)
 		)
 		(stroke
@@ -4974,16 +4964,6 @@
 			(type default)
 		)
 		(uuid "0cfc2263-60a2-4bd9-b34a-72b871c00371")
-	)
-	(wire
-		(pts
-			(xy 468.63 194.31) (xy 468.63 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d23cb52-0bd5-4af8-afc2-d4c807c686df")
 	)
 	(wire
 		(pts
@@ -5487,6 +5467,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 156.21) (xy 455.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19434ee0-c9f9-4e49-be63-006a1d9f71a1")
+	)
+	(wire
+		(pts
 			(xy 232.41 210.82) (xy 252.73 210.82)
 		)
 		(stroke
@@ -5725,16 +5715,6 @@
 			(type default)
 		)
 		(uuid "1e9ccd35-551f-42fc-873d-ee0d05455e59")
-	)
-	(wire
-		(pts
-			(xy 452.12 166.37) (xy 455.93 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec07d76-065e-4a33-a182-8ba73482a256")
 	)
 	(wire
 		(pts
@@ -6241,16 +6221,6 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 173.99) (xy 455.93 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cfa15ee-63b6-4fff-974f-94c0433d658b")
-	)
-	(wire
-		(pts
 			(xy 110.49 205.74) (xy 110.49 203.2)
 		)
 		(stroke
@@ -6278,6 +6248,16 @@
 			(type default)
 		)
 		(uuid "2d387b25-0daa-4a47-8009-b25d847454a8")
+	)
+	(wire
+		(pts
+			(xy 452.12 163.83) (xy 455.93 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1c699-a103-41e3-bf01-467de1c75560")
 	)
 	(wire
 		(pts
@@ -7282,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 176.53) (xy 483.87 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43af04e0-d1f6-4537-8ab9-afddca4ec167")
+	)
+	(wire
+		(pts
 			(xy 405.13 205.74) (xy 410.21 205.74)
 		)
 		(stroke
@@ -7845,16 +7835,6 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 168.91) (xy 483.87 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51036a07-30a1-4407-8bbb-8fcc3f158f90")
-	)
-	(wire
-		(pts
 			(xy 374.65 332.74) (xy 354.33 332.74)
 		)
 		(stroke
@@ -8247,6 +8227,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 158.75) (xy 455.93 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da9501b-6b26-4396-9ac2-ac1af3896729")
+	)
+	(wire
+		(pts
 			(xy 252.73 281.94) (xy 273.05 281.94)
 		)
 		(stroke
@@ -8358,6 +8348,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 193.04) (xy 468.63 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6237bd78-d3ba-4585-aaf5-d153115451f7")
+	)
+	(wire
+		(pts
 			(xy 287.02 111.76) (xy 287.02 110.49)
 		)
 		(stroke
@@ -8435,16 +8435,6 @@
 			(type default)
 		)
 		(uuid "659432e4-cd97-47de-8474-e9c7da0db17d")
-	)
-	(wire
-		(pts
-			(xy 452.12 135.89) (xy 455.93 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65ee57b0-a562-4f62-9105-322b91dc5f30")
 	)
 	(wire
 		(pts
@@ -8844,16 +8834,6 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 171.45) (xy 455.93 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e245fe2-d52f-4b42-ac8c-3bb93fd77369")
-	)
-	(wire
-		(pts
 			(xy 110.49 210.82) (xy 130.81 210.82)
 		)
 		(stroke
@@ -8871,6 +8851,16 @@
 			(type default)
 		)
 		(uuid "6e50e88c-058c-4ee8-bcf9-e9df3f4d916e")
+	)
+	(wire
+		(pts
+			(xy 452.12 135.89) (xy 455.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e903365-9b62-4dd1-badd-8b021408a490")
 	)
 	(wire
 		(pts
@@ -9404,16 +9394,6 @@
 	)
 	(wire
 		(pts
-			(xy 452.12 168.91) (xy 455.93 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8a5190-3fbc-4551-bf53-5b30fcf8f89e")
-	)
-	(wire
-		(pts
 			(xy 204.47 246.38) (xy 199.39 246.38)
 		)
 		(stroke
@@ -9551,16 +9531,6 @@
 			(type default)
 		)
 		(uuid "7fa652c2-291b-406c-8284-dc39afcc35fc")
-	)
-	(wire
-		(pts
-			(xy 487.68 166.37) (xy 483.87 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd4f7b3-3dca-4d6f-a999-42b15d5bf8d2")
 	)
 	(wire
 		(pts
@@ -9953,16 +9923,6 @@
 			(type default)
 		)
 		(uuid "8a053e9b-015b-4aa3-b73b-cb8643d0a144")
-	)
-	(wire
-		(pts
-			(xy 487.68 173.99) (xy 483.87 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a31b0ce-74b4-451c-8305-6c107c769a66")
 	)
 	(wire
 		(pts
@@ -10727,16 +10687,6 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 176.53) (xy 483.87 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bde2d94-9948-4a38-a51e-783bb3e5909e")
-	)
-	(wire
-		(pts
 			(xy 110.49 236.22) (xy 110.49 238.76)
 		)
 		(stroke
@@ -11004,16 +10954,6 @@
 			(type default)
 		)
 		(uuid "a23edf96-84e6-45aa-846a-36a06d5ab34b")
-	)
-	(wire
-		(pts
-			(xy 487.68 179.07) (xy 483.87 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2469242-1c89-47a3-b0ec-3c83d5fa9aae")
 	)
 	(wire
 		(pts
@@ -11724,6 +11664,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 161.29) (xy 455.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cf3e8d-aa60-4713-8bd7-f09521d9f898")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 76.2 110.49)
 		)
 		(stroke
@@ -11886,6 +11836,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 166.37) (xy 483.87 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d20426-9b5f-4378-b9dc-0e1ea1a39b43")
+	)
+	(wire
+		(pts
 			(xy 405.13 199.39) (xy 405.13 205.74)
 		)
 		(stroke
@@ -11974,6 +11934,16 @@
 			(color 101 157 255 1)
 		)
 		(uuid "b8fb92f0-d22e-4a53-bc8d-02421f32a824")
+	)
+	(wire
+		(pts
+			(xy 471.17 193.04) (xy 471.17 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91a5335-e5d1-4413-88d9-87da9f99706c")
 	)
 	(wire
 		(pts
@@ -12630,6 +12600,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 179.07) (xy 483.87 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8504d18-4688-4026-83bf-1ff36fd6c80c")
+	)
+	(wire
+		(pts
 			(xy 452.12 138.43) (xy 455.93 138.43)
 		)
 		(stroke
@@ -12797,6 +12777,16 @@
 			(type default)
 		)
 		(uuid "cd595d83-b3f6-4f96-a7f8-193e783863c9")
+	)
+	(wire
+		(pts
+			(xy 488.95 163.83) (xy 483.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7aabe6-17c0-4cb7-8972-00485501df5b")
 	)
 	(wire
 		(pts
@@ -13203,16 +13193,6 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 194.31) (xy 471.17 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78b2b7f-e91a-4bdd-a320-16de8c280822")
-	)
-	(wire
-		(pts
 			(xy 191.77 210.82) (xy 191.77 213.36)
 		)
 		(stroke
@@ -13370,6 +13350,16 @@
 			(type default)
 		)
 		(uuid "db71f1dc-0d12-4f18-94d3-36c41c74cafa")
+	)
+	(wire
+		(pts
+			(xy 488.95 168.91) (xy 483.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbeed0a-9866-4192-b333-084c68f7d55c")
 	)
 	(wire
 		(pts
@@ -14416,6 +14406,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 173.99) (xy 483.87 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c78e75-3491-480f-8a1e-e182443f93b2")
+	)
+	(wire
+		(pts
 			(xy 110.49 312.42) (xy 171.45 312.42)
 		)
 		(stroke
@@ -14978,6 +14978,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 143.51) (xy 455.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa55ec3-3d33-4b01-be39-51b152cbe931")
+	)
+	(wire
+		(pts
 			(xy 307.34 140.97) (xy 307.34 142.24)
 		)
 		(stroke
@@ -14986,9 +14996,9 @@
 		)
 		(uuid "ffd5cccc-3473-4a83-9045-232173b11caf")
 	)
-	(global_label "Row14"
+	(global_label "Col7"
 		(shape input)
-		(at 360.68 36.83 90)
+		(at 218.44 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14996,9 +15006,9 @@
 			)
 			(justify left)
 		)
-		(uuid "08c7b44b-3a81-4535-af3c-c467a0a895dc")
+		(uuid "055fbc64-ed57-499e-ab9d-9bced98b7ede")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.68 27.6763 90)
+			(at 218.44 29.5511 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,63 +15018,19 @@
 			)
 		)
 	)
-	(global_label "Row1"
+	(global_label "Col2"
 		(shape input)
-		(at 96.52 36.83 90)
+		(at 488.95 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-		)
-		(uuid "110aae20-b299-4629-bf2d-64e3c203d388")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 28.8858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row2"
-		(shape input)
-		(at 452.12 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
 		)
 		(uuid "1b402865-eafc-487a-8c2d-2d1edad9e2ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 444.1758 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col0"
-		(shape input)
-		(at 487.68 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e6738a4-3e72-47ec-a3ef-db595152d71b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 179.07 0)
+			(at 496.2289 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15074,9 +15040,9 @@
 			)
 		)
 	)
-	(global_label "Col5"
+	(global_label "Row0"
 		(shape input)
-		(at 60.96 163.83 180)
+		(at 468.63 193.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15084,9 +15050,9 @@
 			)
 			(justify right)
 		)
-		(uuid "22ff34d2-7dc0-4109-9ddd-f9b2d877eeec")
+		(uuid "1e6738a4-3e72-47ec-a3ef-db595152d71b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 163.83 0)
+			(at 468.63 200.9842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,29 +15062,29 @@
 			)
 		)
 	)
-	(global_label "Row4"
+	(global_label "Col4"
 		(shape input)
-		(at 468.63 194.31 270)
+		(at 488.95 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "253d2e25-bae4-4ade-9507-1a688d1f5450")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 468.63 202.2542 90)
+			(at 496.2289 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "Row10"
+	(global_label "Col10"
 		(shape input)
 		(at 487.68 146.05 0)
 		(fields_autoplaced yes)
@@ -15130,7 +15096,7 @@
 		)
 		(uuid "29d86b4b-1898-47c0-9efe-6511f5993374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 496.8337 146.05 0)
+			(at 496.1684 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15106,7 @@
 			)
 		)
 	)
-	(global_label "Row7"
+	(global_label "Col7"
 		(shape input)
 		(at 487.68 153.67 0)
 		(fields_autoplaced yes)
@@ -15152,271 +15118,7 @@
 		)
 		(uuid "33a1a854-baea-451b-b7ed-e378ced42ae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.6242 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row13"
-		(shape input)
-		(at 340.36 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35afa2e5-733c-4361-a650-5a9d3fad4aa0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.36 27.6763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col3"
-		(shape input)
-		(at 487.68 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37f55c43-4806-4f22-8949-61d4bcbbae80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row9"
-		(shape input)
-		(at 259.08 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c6ac752-73b0-4a09-b1ea-aafdd7e1be9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 28.8858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row0"
-		(shape input)
-		(at 452.12 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3dc0935c-bb61-4881-8ce5-56afb884437a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 444.1758 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4"
-		(shape input)
-		(at 487.68 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "472f150d-e9bb-43a4-914b-c23d3213630e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col3"
-		(shape input)
-		(at 60.96 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49803879-035d-4ef7-a91c-98a523a5074a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row15"
-		(shape input)
-		(at 381 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4edeebb3-1254-45aa-b19f-a0a3716b8705")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381 27.6763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row6"
-		(shape input)
-		(at 487.68 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51d8dd6a-dbb7-48ad-93e4-550099d973c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.6242 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row11"
-		(shape input)
-		(at 299.72 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52178afb-6da8-4867-bfda-dbece8b0b16f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.72 27.6763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row0"
-		(shape input)
-		(at 76.2 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52d30225-1a56-4058-812e-fd2d96c9bafd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 28.8858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col4"
-		(shape input)
-		(at 60.96 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54bf9ca3-57a7-49d8-8b47-3c4225a9f66a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row7"
-		(shape input)
-		(at 218.44 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d6d65d9-d253-4365-95d0-b32a07091990")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 28.8858 90)
+			(at 494.9589 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15428,7 +15130,29 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 137.16 36.83 90)
+		(at 452.12 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37f55c43-4806-4f22-8949-61d4bcbbae80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 444.1758 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col0"
+		(shape input)
+		(at 488.95 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15436,9 +15160,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6697ec48-ed8e-44a2-bd5d-5d1a941a11fb")
+		(uuid "3dc0935c-bb61-4881-8ce5-56afb884437a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 28.8858 90)
+			(at 496.2289 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,9 +15172,31 @@
 			)
 		)
 	)
-	(global_label "Row8"
+	(global_label "Row4"
 		(shape input)
-		(at 238.76 36.83 90)
+		(at 452.12 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "472f150d-e9bb-43a4-914b-c23d3213630e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 444.1758 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 487.68 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15458,9 +15204,9 @@
 			)
 			(justify left)
 		)
-		(uuid "72e86815-0d10-48c3-b5c6-a005a68a286d")
+		(uuid "51d8dd6a-dbb7-48ad-93e4-550099d973c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.76 28.8858 90)
+			(at 494.9589 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15470,9 +15216,9 @@
 			)
 		)
 	)
-	(global_label "Row11"
+	(global_label "Col0"
 		(shape input)
-		(at 487.68 140.97 0)
+		(at 76.2 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15480,9 +15226,9 @@
 			)
 			(justify left)
 		)
-		(uuid "785cb037-cab0-47e7-aacf-1abeaffb359c")
+		(uuid "52d30225-1a56-4058-812e-fd2d96c9bafd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 496.8337 140.97 0)
+			(at 76.2 29.5511 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,7 +15240,29 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 60.96 77.47 180)
+		(at 96.52 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54aa36ba-3cd3-401b-94d4-eea53b720b0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3"
+		(shape input)
+		(at 60.96 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15502,9 +15270,207 @@
 			)
 			(justify right)
 		)
-		(uuid "819708e3-1a6b-43d9-9f6b-bcdcf896af0e")
+		(uuid "57db45c3-c1d8-4d90-a478-b08ffc6d4ae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 77.47 0)
+			(at 53.0158 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col15"
+		(shape input)
+		(at 381 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59117614-88bd-4b45-9eb0-9034067ea00c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381 28.3416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col4"
+		(shape input)
+		(at 157.48 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6892b192-97b4-4523-a7fa-e88a327fbd5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 198.12 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a70b565-1882-4835-a6ee-2fb20ad40052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col8"
+		(shape input)
+		(at 238.76 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bc1ac13-7056-4587-86a9-3a53c10eb87d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.76 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 116.84 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cdb0eee-bd11-47ba-98f2-077d710f2e28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 177.8 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f9eb6b-0b07-4849-97bb-875fcb33a1c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col11"
+		(shape input)
+		(at 487.68 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "785cb037-cab0-47e7-aacf-1abeaffb359c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 496.1684 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 137.16 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ddb6488-97a2-42a9-b645-f95dd02a061c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAPS"
+		(shape input)
+		(at 452.12 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80f9b15c-1752-4b3d-80fd-6a29c77198e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 444.2967 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15536,7 +15502,29 @@
 			)
 		)
 	)
-	(global_label "Row14"
+	(global_label "Row2"
+		(shape input)
+		(at 60.96 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90e628bd-f438-458b-a1db-492eecfb825b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col14"
 		(shape input)
 		(at 452.12 138.43 180)
 		(fields_autoplaced yes)
@@ -15548,7 +15536,7 @@
 		)
 		(uuid "9550edfa-2a9c-4de6-b5b6-ea89d8cfca4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.9663 138.43 0)
+			(at 443.6316 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15558,29 +15546,29 @@
 			)
 		)
 	)
-	(global_label "Row6"
+	(global_label "Row5"
 		(shape input)
-		(at 198.12 36.83 90)
+		(at 60.96 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9cb68042-7fdb-4618-af0f-2972ff525003")
+		(uuid "9b22b983-7895-40bf-b09d-9e968d0d7ed6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 28.8858 90)
+			(at 53.0158 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Row0"
 		(shape input)
 		(at 60.96 55.88 180)
 		(fields_autoplaced yes)
@@ -15592,7 +15580,7 @@
 		)
 		(uuid "9df8f860-b6e5-40dc-be60-0846a710e7a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 55.88 0)
+			(at 53.0158 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,24 +15590,24 @@
 			)
 		)
 	)
-	(global_label "Col1"
+	(global_label "Row1"
 		(shape input)
-		(at 487.68 176.53 0)
+		(at 471.17 193.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a607810d-5063-4761-8a50-136b27248fbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 176.53 0)
+			(at 471.17 200.9842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15646,29 +15634,7 @@
 			)
 		)
 	)
-	(global_label "Row12"
-		(shape input)
-		(at 320.04 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7a71cfe-57d9-47ab-9725-13e1ba73630c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 27.6763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row12"
+	(global_label "Col12"
 		(shape input)
 		(at 452.12 133.35 180)
 		(fields_autoplaced yes)
@@ -15680,7 +15646,7 @@
 		)
 		(uuid "b92f3e25-0cc9-45b4-a90b-de1a4fa4f907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.9663 133.35 0)
+			(at 443.6316 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,29 +15656,7 @@
 			)
 		)
 	)
-	(global_label "Row4"
-		(shape input)
-		(at 157.48 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b989bc0b-a04a-4ef6-9fbb-0181527a3d2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 28.8858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row15"
+	(global_label "Col15"
 		(shape input)
 		(at 452.12 140.97 180)
 		(fields_autoplaced yes)
@@ -15724,7 +15668,7 @@
 		)
 		(uuid "bf37b6f7-e890-4c00-8aed-0a3ebfb1b103")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.9663 140.97 0)
+			(at 443.6316 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15678,7 @@
 			)
 		)
 	)
-	(global_label "Row8"
+	(global_label "Col8"
 		(shape input)
 		(at 487.68 151.13 0)
 		(fields_autoplaced yes)
@@ -15746,7 +15690,7 @@
 		)
 		(uuid "bff0b674-a243-45b7-8280-d1e3f58629e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.6242 151.13 0)
+			(at 494.9589 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15756,7 +15700,7 @@
 			)
 		)
 	)
-	(global_label "Row13"
+	(global_label "Col13"
 		(shape input)
 		(at 452.12 135.89 180)
 		(fields_autoplaced yes)
@@ -15768,7 +15712,7 @@
 		)
 		(uuid "c2327dd8-6f53-4bad-b101-34c7733bc255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.9663 135.89 0)
+			(at 443.6316 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,75 +15722,9 @@
 			)
 		)
 	)
-	(global_label "Col5"
-		(shape input)
-		(at 487.68 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc5cc928-d8e9-4749-b765-02d6eb6eb123")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row5"
 		(shape input)
-		(at 177.8 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4cc60e0-286f-46c4-8a07-e1befe0d29d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 28.8858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row10"
-		(shape input)
-		(at 279.4 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db931572-11f9-4de7-a52d-265a86692dbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 27.6763 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col2"
-		(shape input)
-		(at 60.96 99.06 180)
+		(at 452.12 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15854,9 +15732,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e0a37dfc-3f37-4052-883a-2d3c0b8e441d")
+		(uuid "cc5cc928-d8e9-4749-b765-02d6eb6eb123")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6811 99.06 0)
+			(at 444.1758 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15866,7 +15744,95 @@
 			)
 		)
 	)
-	(global_label "Row9"
+	(global_label "Col12"
+		(shape input)
+		(at 320.04 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc76b232-d6b4-4611-b4e4-c5c965038021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.04 28.3416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col9"
+		(shape input)
+		(at 259.08 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd84650f-ab0d-48fb-aa0f-2a5606777736")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 29.5511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col14"
+		(shape input)
+		(at 360.68 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf85e359-bffa-4f0d-8978-ece76d790875")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 28.3416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col13"
+		(shape input)
+		(at 340.36 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d49a2e40-01be-44ef-b512-fd7eb1e800ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 28.3416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col9"
 		(shape input)
 		(at 487.68 148.59 0)
 		(fields_autoplaced yes)
@@ -15878,7 +15844,29 @@
 		)
 		(uuid "e79f5913-7210-4cec-899f-004624179c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.6242 148.59 0)
+			(at 494.9589 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 488.95 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e829e401-07e0-4938-ba5e-d7250a67472c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 496.2289 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15878,29 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 116.84 36.83 90)
+		(at 452.12 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee1216e1-bc4e-4304-85a8-9fb6e1ea0b4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 444.1758 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 488.95 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15898,9 +15908,75 @@
 			)
 			(justify left)
 		)
-		(uuid "e7ee26c0-8bc3-4a9b-bb35-5ecd84e40bf8")
+		(uuid "efee414c-e366-4a38-b772-445a9ad2b465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 28.8858 90)
+			(at 496.2289 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row4"
+		(shape input)
+		(at 60.96 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1ac3cb7-2aa4-4b2b-b997-0df609beba92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col11"
+		(shape input)
+		(at 299.72 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f446af5a-2655-4f6b-8e68-af96f160c217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.72 28.3416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col10"
+		(shape input)
+		(at 279.4 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f712b153-f27a-4da3-9b77-507a2931b349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 28.3416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15912,7 +15988,7 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 452.12 171.45 180)
+		(at 60.96 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15920,9 +15996,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e829e401-07e0-4938-ba5e-d7250a67472c")
+		(uuid "fa44c29f-f97f-46b3-8849-3e9305aadcb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 444.1758 171.45 0)
+			(at 53.0158 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,9 +16008,9 @@
 			)
 		)
 	)
-	(global_label "Col2"
+	(global_label "Col3"
 		(shape input)
-		(at 487.68 173.99 0)
+		(at 488.95 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15942,9 +16018,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ee1216e1-bc4e-4304-85a8-9fb6e1ea0b4c")
+		(uuid "fcfa9d79-1a8b-4dbe-805e-7b28c26353d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 494.9589 173.99 0)
+			(at 496.2289 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,52 +16030,8 @@
 			)
 		)
 	)
-	(global_label "Row5"
-		(shape input)
-		(at 471.17 194.31 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efee414c-e366-4a38-b772-445a9ad2b465")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 471.17 202.2542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row3"
-		(shape input)
-		(at 452.12 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcfa9d79-1a8b-4dbe-805e-7b28c26353d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 444.1758 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16015,15 +16047,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 304.8 0)
 			(effects
 				(font
@@ -16033,7 +16066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 306.705 0)
 			(effects
 				(font
@@ -16074,7 +16107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16090,15 +16123,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 279.4 0)
 			(effects
 				(font
@@ -16108,7 +16142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 281.305 0)
 			(effects
 				(font
@@ -16282,7 +16316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 293.37 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16298,15 +16332,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 299.72 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 294.64 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 294.64 254 0)
 			(effects
 				(font
@@ -16316,7 +16351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 295.91 255.905 0)
 			(effects
 				(font
@@ -16942,7 +16977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 191.77 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16958,15 +16993,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 198.12 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 193.04 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 193.04 279.4 0)
 			(effects
 				(font
@@ -16976,7 +17012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 194.31 281.305 0)
 			(effects
 				(font
@@ -17017,7 +17053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 334.01 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17033,15 +17069,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 340.36 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 335.28 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 335.28 203.2 0)
 			(effects
 				(font
@@ -17051,7 +17088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 336.55 205.105 0)
 			(effects
 				(font
@@ -17161,7 +17198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 354.33 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17177,15 +17214,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 360.68 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 355.6 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 355.6 330.2 0)
 			(effects
 				(font
@@ -17195,7 +17233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 356.87 332.105 0)
 			(effects
 				(font
@@ -17613,7 +17651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17629,15 +17667,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 254 0)
 			(effects
 				(font
@@ -17647,7 +17686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 255.905 0)
 			(effects
 				(font
@@ -17688,7 +17727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17704,15 +17743,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 330.2 0)
 			(effects
 				(font
@@ -17722,7 +17762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 332.105 0)
 			(effects
 				(font
@@ -17763,7 +17803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17779,15 +17819,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 228.6 0)
 			(effects
 				(font
@@ -17797,7 +17838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 230.505 0)
 			(effects
 				(font
@@ -17975,7 +18016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17991,15 +18032,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 330.2 0)
 			(effects
 				(font
@@ -18009,7 +18051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 332.105 0)
 			(effects
 				(font
@@ -18050,7 +18092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18066,15 +18108,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 304.8 0)
 			(effects
 				(font
@@ -18084,7 +18127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 306.705 0)
 			(effects
 				(font
@@ -18213,7 +18256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18229,15 +18272,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 228.6 0)
 			(effects
 				(font
@@ -18247,7 +18291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 230.505 0)
 			(effects
 				(font
@@ -18564,7 +18608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 212.09 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18580,15 +18624,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 218.44 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 213.36 228.6 0)
 			(effects
 				(font
@@ -18598,7 +18643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 214.63 230.505 0)
 			(effects
 				(font
@@ -18797,7 +18842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18813,15 +18858,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 228.6 0)
 			(effects
 				(font
@@ -18831,7 +18877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 230.505 0)
 			(effects
 				(font
@@ -18872,7 +18918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 313.69 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18888,15 +18934,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 320.04 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 314.96 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 314.96 228.6 0)
 			(effects
 				(font
@@ -18906,7 +18953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 316.23 230.505 0)
 			(effects
 				(font
@@ -19014,7 +19061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 293.37 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19030,15 +19077,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 299.72 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 294.64 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 294.64 279.4 0)
 			(effects
 				(font
@@ -19048,7 +19096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 295.91 281.305 0)
 			(effects
 				(font
@@ -19089,7 +19137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 334.01 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19105,15 +19153,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 340.36 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 335.28 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 335.28 330.2 0)
 			(effects
 				(font
@@ -19123,7 +19172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 336.55 332.105 0)
 			(effects
 				(font
@@ -19668,7 +19717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 212.09 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19684,15 +19733,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 218.44 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 213.36 254 0)
 			(effects
 				(font
@@ -19702,7 +19752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 214.63 255.905 0)
 			(effects
 				(font
@@ -19743,7 +19793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19759,15 +19809,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 330.2 0)
 			(effects
 				(font
@@ -19777,7 +19828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 332.105 0)
 			(effects
 				(font
@@ -19818,7 +19869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 130.81 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19834,15 +19885,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 137.16 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 132.08 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 132.08 203.2 0)
 			(effects
 				(font
@@ -19852,7 +19904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 133.35 205.105 0)
 			(effects
 				(font
@@ -20100,7 +20152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20116,15 +20168,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 279.4 0)
 			(effects
 				(font
@@ -20134,7 +20187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 281.305 0)
 			(effects
 				(font
@@ -20593,7 +20646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20609,15 +20662,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 254 0)
 			(effects
 				(font
@@ -20627,7 +20681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 255.905 0)
 			(effects
 				(font
@@ -20735,7 +20789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20751,15 +20805,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 304.8 0)
 			(effects
 				(font
@@ -20769,7 +20824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 306.705 0)
 			(effects
 				(font
@@ -21485,7 +21540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21501,15 +21556,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 304.8 0)
 			(effects
 				(font
@@ -21519,7 +21575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 306.705 0)
 			(effects
 				(font
@@ -21560,7 +21616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21576,15 +21632,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 254 0)
 			(effects
 				(font
@@ -21594,7 +21651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 255.905 0)
 			(effects
 				(font
@@ -21774,7 +21831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 212.09 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21790,15 +21847,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 218.44 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 213.36 203.2 0)
 			(effects
 				(font
@@ -21808,7 +21866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 214.63 205.105 0)
 			(effects
 				(font
@@ -22024,7 +22082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 313.69 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22040,15 +22098,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 320.04 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 314.96 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 314.96 254 0)
 			(effects
 				(font
@@ -22058,7 +22117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 316.23 255.905 0)
 			(effects
 				(font
@@ -22724,7 +22783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22740,15 +22799,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 203.2 0)
 			(effects
 				(font
@@ -22758,7 +22818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 205.105 0)
 			(effects
 				(font
@@ -23044,7 +23104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23060,15 +23120,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 203.2 0)
 			(effects
 				(font
@@ -23078,7 +23139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 205.105 0)
 			(effects
 				(font
@@ -23119,7 +23180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 191.77 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23135,15 +23196,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 198.12 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 193.04 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 193.04 304.8 0)
 			(effects
 				(font
@@ -23153,7 +23215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 194.31 306.705 0)
 			(effects
 				(font
@@ -23194,7 +23256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23210,15 +23272,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 330.2 0)
 			(effects
 				(font
@@ -23228,7 +23291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 332.105 0)
 			(effects
 				(font
@@ -23493,7 +23556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23509,15 +23572,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 330.2 0)
 			(effects
 				(font
@@ -23527,7 +23591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 332.105 0)
 			(effects
 				(font
@@ -23793,7 +23857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 293.37 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23809,15 +23873,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 299.72 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 294.64 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 294.64 228.6 0)
 			(effects
 				(font
@@ -23827,7 +23892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 295.91 230.505 0)
 			(effects
 				(font
@@ -23868,7 +23933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 151.13 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23884,15 +23949,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 157.48 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 152.4 254 0)
 			(effects
 				(font
@@ -23902,7 +23968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 153.67 255.905 0)
 			(effects
 				(font
@@ -24255,7 +24321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24271,15 +24337,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 279.4 0)
 			(effects
 				(font
@@ -24289,7 +24356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 281.305 0)
 			(effects
 				(font
@@ -24871,7 +24938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 151.13 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24887,15 +24954,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 157.48 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 152.4 203.2 0)
 			(effects
 				(font
@@ -24905,7 +24973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 153.67 205.105 0)
 			(effects
 				(font
@@ -25033,7 +25101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25049,15 +25117,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 254 0)
 			(effects
 				(font
@@ -25067,7 +25136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 255.905 0)
 			(effects
 				(font
@@ -25108,7 +25177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 354.33 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25124,15 +25193,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 360.68 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 355.6 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 355.6 304.8 0)
 			(effects
 				(font
@@ -25142,7 +25212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 356.87 306.705 0)
 			(effects
 				(font
@@ -25408,7 +25478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25424,15 +25494,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 279.4 0)
 			(effects
 				(font
@@ -25442,7 +25513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 281.305 0)
 			(effects
 				(font
@@ -25640,7 +25711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 232.41 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25656,15 +25727,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 238.76 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 233.68 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 233.68 304.8 0)
 			(effects
 				(font
@@ -25674,7 +25746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 234.95 306.705 0)
 			(effects
 				(font
@@ -26111,7 +26183,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26127,15 +26199,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 254 0)
 			(effects
 				(font
@@ -26145,7 +26218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 255.905 0)
 			(effects
 				(font
@@ -26814,7 +26887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26830,15 +26903,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 254 0)
 			(effects
 				(font
@@ -26848,7 +26922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 255.905 0)
 			(effects
 				(font
@@ -27047,7 +27121,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 130.81 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27063,15 +27137,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 137.16 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 132.08 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 132.08 304.8 0)
 			(effects
 				(font
@@ -27081,7 +27156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 133.35 306.705 0)
 			(effects
 				(font
@@ -27297,7 +27372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 293.37 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27313,15 +27388,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 299.72 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 294.64 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 294.64 203.2 0)
 			(effects
 				(font
@@ -27331,7 +27407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 295.91 205.105 0)
 			(effects
 				(font
@@ -27372,7 +27448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 334.01 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27388,15 +27464,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 340.36 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 335.28 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 335.28 279.4 0)
 			(effects
 				(font
@@ -27406,7 +27483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 336.55 281.305 0)
 			(effects
 				(font
@@ -27780,7 +27857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 191.77 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27796,15 +27873,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 198.12 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 193.04 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 193.04 228.6 0)
 			(effects
 				(font
@@ -27814,7 +27892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 194.31 230.505 0)
 			(effects
 				(font
@@ -27855,7 +27933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27871,15 +27949,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 304.8 0)
 			(effects
 				(font
@@ -27889,7 +27968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 306.705 0)
 			(effects
 				(font
@@ -27930,7 +28009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27946,15 +28025,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 279.4 0)
 			(effects
 				(font
@@ -27964,7 +28044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 281.305 0)
 			(effects
 				(font
@@ -28005,7 +28085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 334.01 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28021,15 +28101,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 340.36 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 335.28 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 335.28 228.6 0)
 			(effects
 				(font
@@ -28039,7 +28120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 336.55 230.505 0)
 			(effects
 				(font
@@ -28149,7 +28230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28165,15 +28246,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 279.4 0)
 			(effects
 				(font
@@ -28183,7 +28265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 281.305 0)
 			(effects
 				(font
@@ -28623,7 +28705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28639,15 +28721,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 304.8 0)
 			(effects
 				(font
@@ -28657,7 +28740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 306.705 0)
 			(effects
 				(font
@@ -29101,7 +29184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 151.13 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29117,15 +29200,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 157.48 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 152.4 228.6 0)
 			(effects
 				(font
@@ -29135,7 +29219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 153.67 230.505 0)
 			(effects
 				(font
@@ -29331,7 +29415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 313.69 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29347,15 +29431,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 320.04 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 314.96 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 314.96 304.8 0)
 			(effects
 				(font
@@ -29365,7 +29450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 316.23 306.705 0)
 			(effects
 				(font
@@ -30726,7 +30811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 151.13 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30742,15 +30827,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 157.48 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 152.4 304.8 0)
 			(effects
 				(font
@@ -30760,7 +30846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 153.67 306.705 0)
 			(effects
 				(font
@@ -30801,7 +30887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 374.65 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30817,15 +30903,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 381 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 375.92 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 375.92 254 0)
 			(effects
 				(font
@@ -30835,7 +30922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 377.19 255.905 0)
 			(effects
 				(font
@@ -30964,7 +31051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30980,15 +31067,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 228.6 0)
 			(effects
 				(font
@@ -30998,7 +31086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 230.505 0)
 			(effects
 				(font
@@ -31674,7 +31762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31690,15 +31778,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 279.4 0)
 			(effects
 				(font
@@ -31708,7 +31797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 281.305 0)
 			(effects
 				(font
@@ -32217,7 +32306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 130.81 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32233,15 +32322,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 137.16 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 132.08 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 132.08 254 0)
 			(effects
 				(font
@@ -32251,7 +32341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 133.35 255.905 0)
 			(effects
 				(font
@@ -32361,7 +32451,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 232.41 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32377,15 +32467,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 238.76 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 233.68 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 233.68 254 0)
 			(effects
 				(font
@@ -32395,7 +32486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 234.95 255.905 0)
 			(effects
 				(font
@@ -32611,7 +32702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32627,15 +32718,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 228.6 0)
 			(effects
 				(font
@@ -32645,7 +32737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 230.505 0)
 			(effects
 				(font
@@ -32686,7 +32778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 191.77 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32702,15 +32794,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 198.12 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 193.04 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 193.04 203.2 0)
 			(effects
 				(font
@@ -32720,7 +32813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 194.31 205.105 0)
 			(effects
 				(font
@@ -32965,7 +33058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32981,15 +33074,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 203.2 0)
 			(effects
 				(font
@@ -32999,7 +33093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 205.105 0)
 			(effects
 				(font
@@ -33128,7 +33222,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 212.09 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33144,15 +33238,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 218.44 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 213.36 279.4 0)
 			(effects
 				(font
@@ -33162,7 +33257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 214.63 281.305 0)
 			(effects
 				(font
@@ -33703,7 +33798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33719,15 +33814,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 228.6 0)
 			(effects
 				(font
@@ -33737,7 +33833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 230.505 0)
 			(effects
 				(font
@@ -34596,7 +34692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 130.81 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34612,15 +34708,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 137.16 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 132.08 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 132.08 279.4 0)
 			(effects
 				(font
@@ -34630,7 +34727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 133.35 281.305 0)
 			(effects
 				(font
@@ -34826,7 +34923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 191.77 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34842,15 +34939,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 198.12 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 193.04 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 193.04 254 0)
 			(effects
 				(font
@@ -34860,7 +34958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 194.31 255.905 0)
 			(effects
 				(font
@@ -34901,7 +34999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 232.41 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34917,15 +35015,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 238.76 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 233.68 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 233.68 203.2 0)
 			(effects
 				(font
@@ -34935,7 +35034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 234.95 205.105 0)
 			(effects
 				(font
@@ -35133,7 +35232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 232.41 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35149,15 +35248,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 238.76 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 233.68 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 233.68 279.4 0)
 			(effects
 				(font
@@ -35167,7 +35267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 234.95 281.305 0)
 			(effects
 				(font
@@ -35208,7 +35308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 90.17 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35224,15 +35324,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 96.52 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 91.44 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 91.44 203.2 0)
 			(effects
 				(font
@@ -35242,7 +35343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 92.71 205.105 0)
 			(effects
 				(font
@@ -35370,7 +35471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 232.41 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35386,15 +35487,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 238.76 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 233.68 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 233.68 228.6 0)
 			(effects
 				(font
@@ -35404,7 +35506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 234.95 230.505 0)
 			(effects
 				(font
@@ -35514,7 +35616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35530,15 +35632,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 304.8 0)
 			(effects
 				(font
@@ -35548,7 +35651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 306.705 0)
 			(effects
 				(font
@@ -35970,7 +36073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 69.85 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35986,15 +36089,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 76.2 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 71.12 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 71.12 203.2 0)
 			(effects
 				(font
@@ -36004,7 +36108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 72.39 205.105 0)
 			(effects
 				(font
@@ -36045,7 +36149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 130.81 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36061,15 +36165,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 137.16 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 132.08 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 132.08 228.6 0)
 			(effects
 				(font
@@ -36079,7 +36184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 133.35 230.505 0)
 			(effects
 				(font
@@ -36275,7 +36380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 273.05 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36291,15 +36396,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 279.4 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 274.32 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 274.32 330.2 0)
 			(effects
 				(font
@@ -36309,7 +36415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 275.59 332.105 0)
 			(effects
 				(font
@@ -36350,7 +36456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36366,15 +36472,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 330.2 0)
 			(effects
 				(font
@@ -36384,7 +36491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 332.105 0)
 			(effects
 				(font
@@ -36425,7 +36532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 354.33 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36441,15 +36548,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 360.68 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 355.6 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 355.6 203.2 0)
 			(effects
 				(font
@@ -36459,7 +36567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 356.87 205.105 0)
 			(effects
 				(font
@@ -36745,7 +36853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 313.69 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36761,15 +36869,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 320.04 316.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 314.96 328.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 314.96 330.2 0)
 			(effects
 				(font
@@ -36779,7 +36888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 316.23 332.105 0)
 			(effects
 				(font
@@ -37114,7 +37223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 252.73 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37130,15 +37239,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 259.08 214.63 0)
+		(property "Value" "SK6812MINI-E"
+			(at 254 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 254 228.6 0)
 			(effects
 				(font
@@ -37148,7 +37258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 255.27 230.505 0)
 			(effects
 				(font
@@ -37604,7 +37714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 151.13 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37620,15 +37730,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 157.48 265.43 0)
+		(property "Value" "SK6812MINI-E"
+			(at 152.4 277.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 152.4 279.4 0)
 			(effects
 				(font
@@ -37638,7 +37749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 153.67 281.305 0)
 			(effects
 				(font
@@ -37817,7 +37928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 212.09 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37833,15 +37944,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 218.44 290.83 0)
+		(property "Value" "SK6812MINI-E"
+			(at 213.36 302.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 213.36 304.8 0)
 			(effects
 				(font
@@ -37851,7 +37963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 214.63 306.705 0)
 			(effects
 				(font
@@ -38030,7 +38142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 354.33 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38046,15 +38158,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 360.68 240.03 0)
+		(property "Value" "SK6812MINI-E"
+			(at 355.6 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 355.6 254 0)
 			(effects
 				(font
@@ -38064,7 +38177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 356.87 255.905 0)
 			(effects
 				(font
@@ -38105,7 +38218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 171.45 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38121,15 +38234,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 177.8 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 172.72 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 172.72 203.2 0)
 			(effects
 				(font
@@ -38139,7 +38253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 173.99 205.105 0)
 			(effects
 				(font
@@ -38268,7 +38382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 313.69 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38284,15 +38398,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 320.04 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 314.96 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 314.96 203.2 0)
 			(effects
 				(font
@@ -38302,7 +38417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 316.23 205.105 0)
 			(effects
 				(font
@@ -38431,7 +38546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "LED_SMD:SK6812MINI-E")
 		(at 110.49 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38447,15 +38562,16 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI"
-			(at 116.84 189.23 0)
+		(property "Value" "SK6812MINI-E"
+			(at 111.76 201.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_Reversed_PLCC4_3.2x2.8mm_P1.5mm"
 			(at 111.76 203.2 0)
 			(effects
 				(font
@@ -38465,7 +38581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 			(at 113.03 205.105 0)
 			(effects
 				(font
