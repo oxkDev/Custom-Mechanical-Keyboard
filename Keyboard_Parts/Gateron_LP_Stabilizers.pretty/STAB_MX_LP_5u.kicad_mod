@@ -1,0 +1,198 @@
+(footprint "STAB_MX_LP_5u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Footprint for Cherry Clip/Screw in type stabilizers, 5u")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "06ebb9c4-d6f6-4ed1-aa02-14fe47a7757f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "STAB_MX_LP_5u"
+		(at 0 8.128 0)
+		(layer "Cmts.User")
+		(uuid "2fc6a2e6-11f6-4129-ada4-0b2ddec6bc5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f65db7e-f745-4905-b01b-cb1bdd84ab8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd6539c9-b7d7-4447-82f8-05376ae0a7b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -47.625 -9.525)
+		(end -47.625 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3793a5f1-3249-4b7e-bd50-b888e2019e22")
+	)
+	(fp_line
+		(start -47.625 -9.525)
+		(end 47.625 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7e5cb1da-898a-4687-a3af-40cef694980d")
+	)
+	(fp_line
+		(start -47.625 9.525)
+		(end 47.625 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d2f5b11f-00ba-4b39-8617-176a242d26b5")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -5 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "eaddd7b9-8d4d-447c-949b-24619a7887e5")
+	)
+	(fp_line
+		(start -7 -5)
+		(end -7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "99a87a7b-cecd-4cfc-8c54-bb5cd86b3134")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a714346f-0b8e-42ea-836a-8deb542969e8")
+	)
+	(fp_line
+		(start -5 7)
+		(end -7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b6230acf-fef1-4c37-bb3d-bbcbe349d2a6")
+	)
+	(fp_line
+		(start 5 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0cc7c137-e1ec-4575-bd8d-7d805c47d1e0")
+	)
+	(fp_line
+		(start 5 7)
+		(end 7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5a4e74de-6887-4c69-a040-f5a994c324f8")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae0f6fb4-68f5-44e9-9596-d852c4d170b5")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "781f9714-eabb-4346-a683-3ab28e39e280")
+	)
+	(fp_line
+		(start 47.625 -9.525)
+		(end 47.625 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ea00880-4c9b-4c84-af8b-b3df8e8bf61c")
+	)
+	(fp_rect
+		(start -41.6 -7)
+		(end -34.6 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "123bd874-7f6f-48d8-9710-67defedf90e6")
+	)
+	(fp_rect
+		(start 34.6 -7)
+		(end 41.6 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "083b552a-aeae-4102-9a91-7cf5f9da76f0")
+	)
+	(embedded_fonts no)
+)
