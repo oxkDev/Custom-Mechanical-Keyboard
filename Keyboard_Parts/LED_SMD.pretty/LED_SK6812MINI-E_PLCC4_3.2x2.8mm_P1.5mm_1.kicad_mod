@@ -88,7 +88,7 @@
 		(start -1.8 -1.4)
 		(end -1.8 1.4)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -98,7 +98,7 @@
 		(start -1.6 -1.6)
 		(end 1.6 -1.6)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -108,7 +108,7 @@
 		(start -1.6 1.6)
 		(end 1.6 1.6)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -118,18 +118,18 @@
 		(start 1.8 -1.4)
 		(end 1.8 1.4)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "00100bc2-688f-4e78-b533-c446fcad5ec2")
 	)
 	(fp_arc
-		(start -1.8 -1.4)
-		(mid -1.741421 -1.541421)
-		(end -1.6 -1.6)
+		(start -1.799999 -1.399999)
+		(mid -1.741421 -1.54142)
+		(end -1.6 -1.599999)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -140,7 +140,7 @@
 		(mid -1.741421 1.541421)
 		(end -1.8 1.4)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -151,7 +151,7 @@
 		(mid 1.741421 -1.541421)
 		(end 1.8 -1.4)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -162,7 +162,7 @@
 		(mid 1.741421 1.541421)
 		(end 1.6 1.6)
 		(stroke
-			(width 0.05)
+			(width 0.02)
 			(type default)
 		)
 		(layer "Edge.Cuts")

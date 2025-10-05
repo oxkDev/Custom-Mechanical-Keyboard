@@ -3751,154 +3751,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keyboard_parts:LED"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED-3MM LED-5MM LED-10MM LED-0603 LED-0805 LED-1206 LEDV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.635) (xy -3.175 -1.651) (xy -3.048 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 -1.016) (xy -2.794 -2.032) (xy -2.667 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4876,12 +4728,6 @@
 		(uuid "548d6f78-9bf4-4abd-9c5f-c07f2783c112")
 	)
 	(junction
-		(at 551.18 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5494aa54-29c5-4b5b-803d-360e118318db")
-	)
-	(junction
 		(at 90.17 332.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5150,6 +4996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "810bf9eb-8fe2-417e-87ff-1f28b654cb5c")
+	)
+	(junction
+		(at 69.85 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "810f3511-d7c9-42a0-b728-5ffd087604f8")
 	)
 	(junction
 		(at 273.05 205.74)
@@ -6110,6 +5962,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebc39d2d-1a7d-4d00-b0e1-f882419257ff")
+	)
+	(junction
+		(at 69.85 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec269e8a-1e15-4e35-bc34-8985d208d488")
 	)
 	(junction
 		(at 246.38 142.24)
@@ -7742,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 264.16) (xy 50.8 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21022fe1-b31a-4505-869e-6c1229c0dc0d")
+	)
+	(wire
+		(pts
 			(xy 494.03 166.37) (xy 508 166.37)
 		)
 		(stroke
@@ -8144,7 +8012,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 259.08) (xy 384.81 259.08)
+			(xy 40.64 259.08) (xy 384.81 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8234,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 271.78) (xy 59.69 259.08)
+			(xy 40.64 271.78) (xy 40.64 259.08)
 		)
 		(stroke
 			(width 0)
@@ -10080,16 +9948,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 271.78) (xy 62.23 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57a081a4-5a43-44f8-917e-1b702e4b3481")
-	)
-	(wire
-		(pts
 			(xy 422.91 106.68) (xy 431.8 106.68)
 		)
 		(stroke
@@ -10863,6 +10721,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 279.4) (xy 50.8 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7ea570-43ef-4bd1-82f0-c666821bcca5")
+	)
+	(wire
+		(pts
 			(xy 293.37 231.14) (xy 293.37 228.6)
 		)
 		(stroke
@@ -11004,16 +10872,6 @@
 			(type default)
 		)
 		(uuid "6e50e88c-058c-4ee8-bcf9-e9df3f4d916e")
-	)
-	(wire
-		(pts
-			(xy 562.61 171.45) (xy 565.15 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f401772-2ad8-49b0-9e87-6f81e817d4df")
 	)
 	(wire
 		(pts
@@ -11234,6 +11092,16 @@
 			(type default)
 		)
 		(uuid "751da0e0-fadf-4838-8093-a8f2189e874e")
+	)
+	(wire
+		(pts
+			(xy 50.8 261.62) (xy 69.85 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75504e8e-926f-4774-8359-337dbcc9df7b")
 	)
 	(wire
 		(pts
@@ -11544,16 +11412,6 @@
 			(type default)
 		)
 		(uuid "7c69dcfd-4b93-473e-a413-f95ade08b169")
-	)
-	(wire
-		(pts
-			(xy 551.18 171.45) (xy 552.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf8564e-97b8-4188-99c6-9fd6cc09fe0d")
 	)
 	(wire
 		(pts
@@ -14561,6 +14419,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 271.78) (xy 62.23 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0319952-02f7-4739-94fe-fef4655a84cf")
+	)
+	(wire
+		(pts
 			(xy 327.66 153.67) (xy 327.66 154.94)
 		)
 		(stroke
@@ -15816,6 +15684,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 281.94) (xy 69.85 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf971cc-1ae2-45b5-a914-ee0a38e0e7d2")
+	)
+	(wire
+		(pts
 			(xy 156.21 110.49) (xy 157.48 110.49)
 		)
 		(stroke
@@ -16958,6 +16836,16 @@
 			(type default)
 		)
 		(uuid "f6269b65-5f4b-41d7-94bc-ac35dd9ae780")
+	)
+	(wire
+		(pts
+			(xy 40.64 271.78) (xy 43.18 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6420cf7-4773-4999-a17f-39df7bfb9fbc")
 	)
 	(wire
 		(pts
@@ -18848,7 +18736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00a89771-3220-4034-a5fc-ea5145c3ff78")
-		(property "Reference" "LED62"
+		(property "Reference" "LED61"
 			(at 66.04 290.83 0)
 			(effects
 				(font
@@ -18856,7 +18744,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 302.895 0)
 			(effects
 				(font
@@ -18909,7 +18797,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED62")
+					(reference "LED61")
 					(unit 1)
 				)
 			)
@@ -18924,7 +18812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "018f3ba3-40a9-4d98-a44f-c9b6d89b1906")
-		(property "Reference" "LED57"
+		(property "Reference" "LED56"
 			(at 248.92 265.43 0)
 			(effects
 				(font
@@ -18932,7 +18820,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 277.495 0)
 			(effects
 				(font
@@ -18985,7 +18873,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED57")
+					(reference "LED56")
 					(unit 1)
 				)
 			)
@@ -19133,7 +19021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "034b5f6f-de7a-42fc-8ddb-3a4a3871cc65")
-		(property "Reference" "LED44"
+		(property "Reference" "LED43"
 			(at 289.56 240.03 0)
 			(effects
 				(font
@@ -19141,7 +19029,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 294.64 252.095 0)
 			(effects
 				(font
@@ -19194,7 +19082,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED44")
+					(reference "LED43")
 					(unit 1)
 				)
 			)
@@ -19414,7 +19302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0505e439-4abf-49a7-9cd1-913ca6177dee")
-		(property "Reference" "D81"
+		(property "Reference" "D80"
 			(at 269.24 157.4799 90)
 			(effects
 				(font
@@ -19486,7 +19374,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D81")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -19502,7 +19390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052806b6-e62a-4a34-9477-c2c8075ee168")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 370.84 71.1199 90)
 			(effects
 				(font
@@ -19574,7 +19462,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -19591,7 +19479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0586fd15-e386-4ede-b9f5-ad44691c8ecf")
-		(property "Reference" "SW66"
+		(property "Reference" "SW65"
 			(at 151.13 125.73 0)
 			(effects
 				(font
@@ -19643,7 +19531,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW66")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -19660,7 +19548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "066628ad-dda2-4a7f-8e15-2b7a3516f194")
-		(property "Reference" "SW40"
+		(property "Reference" "SW39"
 			(at 212.09 82.55 0)
 			(effects
 				(font
@@ -19712,7 +19600,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW40")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -19794,7 +19682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "077413c4-bbf2-451f-93ed-b641fb8c55c9")
-		(property "Reference" "LED54"
+		(property "Reference" "LED53"
 			(at 187.96 265.43 0)
 			(effects
 				(font
@@ -19802,7 +19690,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 193.04 277.495 0)
 			(effects
 				(font
@@ -19855,7 +19743,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED54")
+					(reference "LED53")
 					(unit 1)
 				)
 			)
@@ -19870,7 +19758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0791dc29-db83-4e5c-bc18-56dc76e7cd0d")
-		(property "Reference" "LED15"
+		(property "Reference" "LED14"
 			(at 330.2 189.23 0)
 			(effects
 				(font
@@ -19878,7 +19766,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 335.28 201.295 0)
 			(effects
 				(font
@@ -19931,7 +19819,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED15")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -19948,7 +19836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d64783-61a5-4c8e-a0f3-c2bf60e9824c")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 130.81 39.37 0)
 			(effects
 				(font
@@ -20000,7 +19888,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -20015,7 +19903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07dbf036-0f92-4779-b231-6f10801adad7")
-		(property "Reference" "LED84"
+		(property "Reference" "LED83"
 			(at 350.52 316.23 0)
 			(effects
 				(font
@@ -20023,7 +19911,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 355.6 328.295 0)
 			(effects
 				(font
@@ -20076,7 +19964,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED84")
+					(reference "LED83")
 					(unit 1)
 				)
 			)
@@ -20160,7 +20048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09306945-ce8b-4515-9226-42ef8b734c54")
-		(property "Reference" "SW33"
+		(property "Reference" "SW32"
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -20212,7 +20100,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW33")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -20227,7 +20115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ad45ceb-33d8-4b9b-ab46-0aadbd243090")
-		(property "Reference" "D49"
+		(property "Reference" "D48"
 			(at 86.36 114.2999 90)
 			(effects
 				(font
@@ -20299,7 +20187,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D49")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -20395,7 +20283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db91358-3919-4623-9183-4ebe5c70e832")
-		(property "Reference" "D46"
+		(property "Reference" "D45"
 			(at 350.52 92.7099 90)
 			(effects
 				(font
@@ -20467,7 +20355,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D46")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -20549,7 +20437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ec73bb1-ffba-4ec7-8e09-a1c1563a4b98")
-		(property "Reference" "LED42"
+		(property "Reference" "LED41"
 			(at 248.92 240.03 0)
 			(effects
 				(font
@@ -20557,7 +20445,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 252.095 0)
 			(effects
 				(font
@@ -20610,7 +20498,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED42")
+					(reference "LED41")
 					(unit 1)
 				)
 			)
@@ -20625,7 +20513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1004d98a-679c-440e-bdc1-5c1d4e709907")
-		(property "Reference" "LED78"
+		(property "Reference" "LED77"
 			(at 106.68 316.23 0)
 			(effects
 				(font
@@ -20633,7 +20521,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 328.295 0)
 			(effects
 				(font
@@ -20686,7 +20574,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED78")
+					(reference "LED77")
 					(unit 1)
 				)
 			)
@@ -20701,7 +20589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11c154a8-e714-4415-aca7-965153e9f810")
-		(property "Reference" "LED32"
+		(property "Reference" "LED31"
 			(at 370.84 214.63 0)
 			(effects
 				(font
@@ -20709,7 +20597,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 226.695 0)
 			(effects
 				(font
@@ -20762,7 +20650,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED32")
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -20778,7 +20666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "129186ab-2684-44c3-b4f2-a6aa115f7f2c")
-		(property "Reference" "SW76"
+		(property "Reference" "SW75"
 			(at 69.85 147.32 0)
 			(effects
 				(font
@@ -20830,7 +20718,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW76")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -20847,7 +20735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a7c7b0-b4d8-4256-85eb-d20c1e72a617")
-		(property "Reference" "SW23"
+		(property "Reference" "SW22"
 			(at 171.45 60.96 0)
 			(effects
 				(font
@@ -20899,7 +20787,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW23")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -20914,7 +20802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1356128e-db53-4f8b-8cf0-936e94aae009")
-		(property "Reference" "LED85"
+		(property "Reference" "LED84"
 			(at 370.84 316.23 0)
 			(effects
 				(font
@@ -20922,7 +20810,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 328.295 0)
 			(effects
 				(font
@@ -20975,7 +20863,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED85")
+					(reference "LED84")
 					(unit 1)
 				)
 			)
@@ -20990,7 +20878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135fe9dc-f0b9-4394-91d1-2f3b52c405a8")
-		(property "Reference" "LED75"
+		(property "Reference" "LED74"
 			(at 370.84 290.83 0)
 			(effects
 				(font
@@ -20998,7 +20886,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 302.895 0)
 			(effects
 				(font
@@ -21051,7 +20939,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED75")
+					(reference "LED74")
 					(unit 1)
 				)
 			)
@@ -21067,7 +20955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f3606e-c6d6-4459-98bd-a0f840a6f0fb")
-		(property "Reference" "D72"
+		(property "Reference" "D71"
 			(at 269.24 135.8899 90)
 			(effects
 				(font
@@ -21139,7 +21027,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D72")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -21154,7 +21042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14309416-0ea3-4c4e-980e-d492ece44d13")
-		(property "Reference" "LED19"
+		(property "Reference" "LED18"
 			(at 86.36 214.63 0)
 			(effects
 				(font
@@ -21162,7 +21050,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 226.695 0)
 			(effects
 				(font
@@ -21215,7 +21103,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED19")
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -21232,7 +21120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14db8370-bc54-4581-8859-edcfd530d749")
-		(property "Reference" "SW56"
+		(property "Reference" "SW55"
 			(at 232.41 104.14 0)
 			(effects
 				(font
@@ -21284,7 +21172,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW56")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -21375,7 +21263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "161ae545-e940-497b-9995-00bea9ed111e")
-		(property "Reference" "SW80"
+		(property "Reference" "SW79"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -21427,7 +21315,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW80")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -21511,7 +21399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18a20c6e-80b8-4c7c-ac4f-69e5d98b5f85")
-		(property "Reference" "SW54"
+		(property "Reference" "SW53"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -21563,7 +21451,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW54")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -21580,7 +21468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "199f5ac0-8f50-45e2-8d5d-9836ea13ac63")
-		(property "Reference" "SW72"
+		(property "Reference" "SW71"
 			(at 273.05 125.73 0)
 			(effects
 				(font
@@ -21632,7 +21520,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW72")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -21647,7 +21535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19be61b6-6a24-465d-b1ca-93ca2b38ec06")
-		(property "Reference" "LED25"
+		(property "Reference" "LED24"
 			(at 208.28 214.63 0)
 			(effects
 				(font
@@ -21655,7 +21543,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 213.36 226.695 0)
 			(effects
 				(font
@@ -21708,7 +21596,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED25")
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -21794,7 +21682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a302f8c-7964-4412-a36d-106b851b99d0")
-		(property "Reference" "D38"
+		(property "Reference" "D37"
 			(at 167.64 92.7099 90)
 			(effects
 				(font
@@ -21866,7 +21754,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D38")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -21881,7 +21769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1aee4174-e4d9-46f7-9cb8-1b10a15d3bda")
-		(property "Reference" "LED28"
+		(property "Reference" "LED27"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -21889,7 +21777,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 226.695 0)
 			(effects
 				(font
@@ -21942,7 +21830,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED28")
+					(reference "LED27")
 					(unit 1)
 				)
 			)
@@ -21957,7 +21845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dd4a9f8-b2b7-44c3-a6d4-a45d9a29630e")
-		(property "Reference" "LED30"
+		(property "Reference" "LED29"
 			(at 309.88 214.63 0)
 			(effects
 				(font
@@ -21965,7 +21853,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 314.96 226.695 0)
 			(effects
 				(font
@@ -22018,7 +21906,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED30")
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -22100,7 +21988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb2afa9-0f72-45c7-b560-cb170d1ac9f3")
-		(property "Reference" "LED59"
+		(property "Reference" "LED58"
 			(at 289.56 265.43 0)
 			(effects
 				(font
@@ -22108,7 +21996,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 294.64 277.495 0)
 			(effects
 				(font
@@ -22161,7 +22049,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED59")
+					(reference "LED58")
 					(unit 1)
 				)
 			)
@@ -22176,7 +22064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fba2bad-d3b8-423f-a793-f6dbfc7ba71b")
-		(property "Reference" "LED83"
+		(property "Reference" "LED82"
 			(at 330.2 316.23 0)
 			(effects
 				(font
@@ -22184,7 +22072,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 335.28 328.295 0)
 			(effects
 				(font
@@ -22237,7 +22125,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED83")
+					(reference "LED82")
 					(unit 1)
 				)
 			)
@@ -22254,7 +22142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20456521-5b83-4c57-92f2-01a030a6d2f0")
-		(property "Reference" "SW61"
+		(property "Reference" "SW60"
 			(at 374.65 104.14 0)
 			(effects
 				(font
@@ -22306,7 +22194,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW61")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -22392,7 +22280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20a0d8ec-1b40-47c6-8fc4-52f8c5a15391")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 66.04 49.5299 90)
 			(effects
 				(font
@@ -22464,7 +22352,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -22481,7 +22369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "214e2fa2-9456-4f5c-9aee-5fb99d20d5a4")
-		(property "Reference" "SW79"
+		(property "Reference" "SW78"
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -22533,7 +22421,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW79")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -22620,7 +22508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218803e6-396e-4bb3-9aa1-67a8956ec325")
-		(property "Reference" "SW26"
+		(property "Reference" "SW25"
 			(at 232.41 60.96 0)
 			(effects
 				(font
@@ -22672,7 +22560,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW26")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -22689,7 +22577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e54660-58e0-40c1-bfda-a719883485cf")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 232.41 39.37 0)
 			(effects
 				(font
@@ -22741,7 +22629,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -22756,7 +22644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "294c69df-a08b-4bb8-9a03-a12487d3b034")
-		(property "Reference" "LED40"
+		(property "Reference" "LED39"
 			(at 208.28 240.03 0)
 			(effects
 				(font
@@ -22764,7 +22652,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 213.36 252.095 0)
 			(effects
 				(font
@@ -22817,7 +22705,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED40")
+					(reference "LED39")
 					(unit 1)
 				)
 			)
@@ -22832,7 +22720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ab70c84-374c-4169-8cab-6151522e3151")
-		(property "Reference" "LED77"
+		(property "Reference" "LED76"
 			(at 86.36 316.23 0)
 			(effects
 				(font
@@ -22840,7 +22728,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 328.295 0)
 			(effects
 				(font
@@ -22893,7 +22781,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED77")
+					(reference "LED76")
 					(unit 1)
 				)
 			)
@@ -22908,7 +22796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b4f3f1f-af03-4c91-b058-8da09a5fac53")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 127 189.23 0)
 			(effects
 				(font
@@ -22916,7 +22804,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 132.08 201.295 0)
 			(effects
 				(font
@@ -22969,7 +22857,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED5")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -22986,7 +22874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c5d90f6-620a-4360-aa9c-ba1945fa1d01")
-		(property "Reference" "SW38"
+		(property "Reference" "SW37"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -23038,7 +22926,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW38")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -23054,7 +22942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cd8e0b9-2ad5-4b95-8ccf-eab5912e060f")
-		(property "Reference" "SW81"
+		(property "Reference" "SW80"
 			(at 273.05 147.32 0)
 			(effects
 				(font
@@ -23106,7 +22994,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW81")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -23191,7 +23079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f2b7c80-ded6-49d8-b374-b495bd3a5e30")
-		(property "Reference" "LED49"
+		(property "Reference" "LED48"
 			(at 86.36 265.43 0)
 			(effects
 				(font
@@ -23199,7 +23087,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 277.495 0)
 			(effects
 				(font
@@ -23252,7 +23140,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED49")
+					(reference "LED48")
 					(unit 1)
 				)
 			)
@@ -23268,7 +23156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4a9ff0-77c8-49c6-804b-23d36d91c78e")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 106.68 49.5299 90)
 			(effects
 				(font
@@ -23340,7 +23228,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -23355,7 +23243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32a4b444-2553-4fff-8bb8-d33f670f116c")
-		(property "Reference" "D77"
+		(property "Reference" "D76"
 			(at 86.36 157.4799 90)
 			(effects
 				(font
@@ -23427,7 +23315,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D77")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -23443,7 +23331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "338955b7-9123-430c-8538-250bc6ba3b98")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 127 92.7099 90)
 			(effects
 				(font
@@ -23515,7 +23403,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -23531,7 +23419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "347c5551-5e7c-4cc8-be92-bab03b0174d0")
-		(property "Reference" "D39"
+		(property "Reference" "D38"
 			(at 187.96 92.7099 90)
 			(effects
 				(font
@@ -23603,7 +23491,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -23685,7 +23573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34fc3d4f-3b11-4385-87ad-8c31ceeda72b")
-		(property "Reference" "LED35"
+		(property "Reference" "LED34"
 			(at 106.68 240.03 0)
 			(effects
 				(font
@@ -23693,7 +23581,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 252.095 0)
 			(effects
 				(font
@@ -23746,7 +23634,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED35")
+					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -23828,7 +23716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3646379a-407d-4d3e-8345-2869a216389f")
-		(property "Reference" "LED64"
+		(property "Reference" "LED63"
 			(at 106.68 290.83 0)
 			(effects
 				(font
@@ -23836,7 +23724,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 302.895 0)
 			(effects
 				(font
@@ -23889,7 +23777,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED64")
+					(reference "LED63")
 					(unit 1)
 				)
 			)
@@ -23906,7 +23794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a4232e-69b1-4bec-8f76-e1244faf2a61")
-		(property "Reference" "SW46"
+		(property "Reference" "SW45"
 			(at 354.33 82.55 0)
 			(effects
 				(font
@@ -23958,7 +23846,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW46")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -24042,7 +23930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3780f7b8-0978-426f-88ce-4137fe0f5d41")
-		(property "Reference" "SW63"
+		(property "Reference" "SW62"
 			(at 90.17 125.73 0)
 			(effects
 				(font
@@ -24094,7 +23982,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW63")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -24110,7 +23998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3805e901-62d2-4c23-894d-6bee1fa0e115")
-		(property "Reference" "D43"
+		(property "Reference" "D42"
 			(at 269.24 92.7099 90)
 			(effects
 				(font
@@ -24182,7 +24070,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -24198,7 +24086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38eca0d7-0ece-4dc6-9f5d-1a69896edf32")
-		(property "Reference" "D74"
+		(property "Reference" "D73"
 			(at 350.52 135.8899 90)
 			(effects
 				(font
@@ -24270,7 +24158,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D74")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -24286,7 +24174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "391a5d17-b60a-4eee-af06-1bdd4abedbba")
-		(property "Reference" "SW44"
+		(property "Reference" "SW43"
 			(at 293.37 82.55 0)
 			(effects
 				(font
@@ -24338,7 +24226,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW44")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -24354,7 +24242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e8e485-bd71-416f-8ba4-d3b3d8d81af6")
-		(property "Reference" "D70"
+		(property "Reference" "D69"
 			(at 228.6 135.8899 90)
 			(effects
 				(font
@@ -24426,7 +24314,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D70")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -24443,7 +24331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a595197-d753-4834-92c8-49e6d9737573")
-		(property "Reference" "SW82"
+		(property "Reference" "SW81"
 			(at 313.69 147.32 0)
 			(effects
 				(font
@@ -24495,7 +24383,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW82")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -24512,7 +24400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac135a5-f361-4459-bea9-54d6bfd4c0f2")
-		(property "Reference" "SW29"
+		(property "Reference" "SW28"
 			(at 293.37 60.96 0)
 			(effects
 				(font
@@ -24564,7 +24452,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW29")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -24579,7 +24467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b8ccbb3-4fe4-4711-9780-f88a46e1d0ec")
-		(property "Reference" "LED71"
+		(property "Reference" "LED70"
 			(at 248.92 290.83 0)
 			(effects
 				(font
@@ -24587,7 +24475,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 302.895 0)
 			(effects
 				(font
@@ -24640,7 +24528,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED71")
+					(reference "LED70")
 					(unit 1)
 				)
 			)
@@ -24655,7 +24543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cfcb8c8-6c71-4f20-b437-6f8fc236e3c9")
-		(property "Reference" "LED34"
+		(property "Reference" "LED33"
 			(at 86.36 240.03 0)
 			(effects
 				(font
@@ -24663,7 +24551,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 252.095 0)
 			(effects
 				(font
@@ -24716,7 +24604,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED34")
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -24803,7 +24691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4b28d7-021c-4879-a303-1216ef5bea3f")
-		(property "Reference" "SW73"
+		(property "Reference" "SW72"
 			(at 313.69 125.73 0)
 			(effects
 				(font
@@ -24855,7 +24743,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW73")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -24870,7 +24758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4125ff28-53dc-45aa-9a27-a42b53e81d99")
-		(property "Reference" "LED9"
+		(property "Reference" "LED8"
 			(at 208.28 189.23 0)
 			(effects
 				(font
@@ -24878,7 +24766,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 213.36 201.295 0)
 			(effects
 				(font
@@ -24931,7 +24819,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED9")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -24947,7 +24835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41924bdb-fa82-45cf-9a70-20708c3b4424")
-		(property "Reference" "D37"
+		(property "Reference" "D36"
 			(at 147.32 92.7099 90)
 			(effects
 				(font
@@ -25019,7 +24907,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D37")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -25034,7 +24922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "439036bd-8866-449f-81c5-e9dd90f6144d")
-		(property "Reference" "D60"
+		(property "Reference" "D59"
 			(at 330.2 114.3 90)
 			(effects
 				(font
@@ -25106,7 +24994,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D60")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -25121,7 +25009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "446ff0b5-0362-4950-92ea-0ecbfc832659")
-		(property "Reference" "LED45"
+		(property "Reference" "LED44"
 			(at 309.88 240.03 0)
 			(effects
 				(font
@@ -25129,7 +25017,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 314.96 252.095 0)
 			(effects
 				(font
@@ -25182,7 +25070,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED45")
+					(reference "LED44")
 					(unit 1)
 				)
 			)
@@ -25198,7 +25086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44854572-b7aa-4411-8d0f-be7a94acf3a3")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 127 71.1199 90)
 			(effects
 				(font
@@ -25270,7 +25158,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D21")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -25287,7 +25175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "448c63ab-ef27-4932-8f02-b57072e8fbd9")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 90.17 39.37 0)
 			(effects
 				(font
@@ -25339,7 +25227,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -25429,7 +25317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a59f6d2-a697-493f-a341-af3eb0ecb356")
-		(property "Reference" "SW74"
+		(property "Reference" "SW73"
 			(at 354.33 125.73 0)
 			(effects
 				(font
@@ -25481,7 +25369,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW74")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -25497,7 +25385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8ff86c-faed-4c7d-a25f-4552617a83ee")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 289.56 49.5299 90)
 			(effects
 				(font
@@ -25569,7 +25457,83 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D13")
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_SMD:SK6812MINI-E")
+		(at 50.8 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4be1d8c6-c420-41de-827a-fade990f7afa")
+		(property "Reference" "CAPS_LED1"
+			(at 46.99 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E_Rev"
+			(at 52.07 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_PLCC4_3.2x2.8mm_P1.5mm_1"
+			(at 52.07 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 53.34 281.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 50.8 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d77a43cd-c647-42a0-b717-e46c76a2cee1")
+		)
+		(pin "4"
+			(uuid "34e81e87-7c81-4328-9d58-d8d21ce0f708")
+		)
+		(pin "3"
+			(uuid "93abc4c1-0c37-4c47-8f1b-fea924af798f")
+		)
+		(pin "2"
+			(uuid "afef2549-d8b2-4116-b637-da66a0c6b13e")
+		)
+		(instances
+			(project "Custom Mechanical Keyboard"
+				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
+					(reference "CAPS_LED1")
 					(unit 1)
 				)
 			)
@@ -25585,7 +25549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd8cb08-1458-49aa-876d-af323dfa077b")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 248.92 92.7099 90)
 			(effects
 				(font
@@ -25657,7 +25621,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -25673,7 +25637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec95cd2-4858-43d0-8e77-6aaedec9b48c")
-		(property "Reference" "D65"
+		(property "Reference" "D64"
 			(at 127 135.8899 90)
 			(effects
 				(font
@@ -25745,7 +25709,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D65")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -25828,7 +25792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502789b0-fccb-478b-9eb0-d08ce2a915f3")
-		(property "Reference" "SW60"
+		(property "Reference" "SW59"
 			(at 334.01 104.14 0)
 			(effects
 				(font
@@ -25880,7 +25844,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW60")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -25895,7 +25859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "508503cf-45fb-485d-978a-cc8609093ce2")
-		(property "Reference" "LED12"
+		(property "Reference" "LED11"
 			(at 269.24 189.23 0)
 			(effects
 				(font
@@ -25903,7 +25867,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 201.295 0)
 			(effects
 				(font
@@ -25956,7 +25920,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED12")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -25973,7 +25937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52b34a1d-a150-4457-836d-1006d84b6135")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -26025,7 +25989,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -26041,7 +26005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53e523a0-9d27-4128-823e-89680558df2d")
-		(property "Reference" "D22"
+		(property "Reference" "D21"
 			(at 147.32 71.1199 90)
 			(effects
 				(font
@@ -26113,7 +26077,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D22")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -26128,7 +26092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54bb740f-f442-4169-92c5-3f17aa3ad1f3")
-		(property "Reference" "LED17"
+		(property "Reference" "LED16"
 			(at 370.84 189.23 0)
 			(effects
 				(font
@@ -26136,7 +26100,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 201.295 0)
 			(effects
 				(font
@@ -26189,7 +26153,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED17")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -26204,7 +26168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54fca4e1-2107-4ee4-af98-835eb52e3c2c")
-		(property "Reference" "LED68"
+		(property "Reference" "LED67"
 			(at 187.96 290.83 0)
 			(effects
 				(font
@@ -26212,7 +26176,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 193.04 302.895 0)
 			(effects
 				(font
@@ -26265,7 +26229,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED68")
+					(reference "LED67")
 					(unit 1)
 				)
 			)
@@ -26280,7 +26244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5562c7e8-3065-4d1f-8b43-9841233f1a52")
-		(property "Reference" "LED80"
+		(property "Reference" "LED79"
 			(at 248.92 316.23 0)
 			(effects
 				(font
@@ -26288,7 +26252,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 328.295 0)
 			(effects
 				(font
@@ -26341,7 +26305,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED80")
+					(reference "LED79")
 					(unit 1)
 				)
 			)
@@ -26358,7 +26322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57944b3f-2f75-47be-bd69-66f1aa39aaad")
-		(property "Reference" "SW84"
+		(property "Reference" "SW83"
 			(at 354.33 147.32 0)
 			(effects
 				(font
@@ -26410,7 +26374,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW84")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -26426,7 +26390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d6134c-d5e7-4c5f-b472-c1086306bb42")
-		(property "Reference" "D78"
+		(property "Reference" "D77"
 			(at 106.68 157.4799 90)
 			(effects
 				(font
@@ -26498,7 +26462,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D78")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -26580,7 +26544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59e3dce3-e6e0-4786-b2c7-597cce12687c")
-		(property "Reference" "LED76"
+		(property "Reference" "LED75"
 			(at 66.04 316.23 0)
 			(effects
 				(font
@@ -26588,7 +26552,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 328.295 0)
 			(effects
 				(font
@@ -26641,7 +26605,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED76")
+					(reference "LED75")
 					(unit 1)
 				)
 			)
@@ -26794,7 +26758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c17e6c6-65a2-4314-9c70-a5fa08ff679a")
-		(property "Reference" "D57"
+		(property "Reference" "D56"
 			(at 248.92 114.2999 90)
 			(effects
 				(font
@@ -26866,7 +26830,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D57")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -26881,7 +26845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c78a614-ca6f-43e1-9151-e4132fc990b6")
-		(property "Reference" "LED29"
+		(property "Reference" "LED28"
 			(at 289.56 214.63 0)
 			(effects
 				(font
@@ -26889,7 +26853,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 294.64 226.695 0)
 			(effects
 				(font
@@ -26942,7 +26906,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED29")
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -26957,7 +26921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cdba30c-5c50-4093-8272-8aac25636175")
-		(property "Reference" "LED37"
+		(property "Reference" "LED36"
 			(at 147.32 240.03 0)
 			(effects
 				(font
@@ -26965,7 +26929,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 152.4 252.095 0)
 			(effects
 				(font
@@ -27018,7 +26982,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED37")
+					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -27035,7 +26999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d209844-e410-4716-8409-0c8205190fb4")
-		(property "Reference" "SW39"
+		(property "Reference" "SW38"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -27087,7 +27051,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW39")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -27103,7 +27067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dcaf756-07b5-43cc-82b3-f424c92a8013")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 309.88 49.5299 90)
 			(effects
 				(font
@@ -27175,7 +27139,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -27191,7 +27155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e644c6b-9ead-4f25-9157-729f29ff6d05")
-		(property "Reference" "D56"
+		(property "Reference" "D55"
 			(at 228.6 114.2999 90)
 			(effects
 				(font
@@ -27263,7 +27227,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D56")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -27345,7 +27309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "610afa44-941d-4611-bad6-e841f3b19cca")
-		(property "Reference" "LED58"
+		(property "Reference" "LED57"
 			(at 269.24 265.43 0)
 			(effects
 				(font
@@ -27353,7 +27317,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 277.495 0)
 			(effects
 				(font
@@ -27406,7 +27370,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED58")
+					(reference "LED57")
 					(unit 1)
 				)
 			)
@@ -27423,7 +27387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bf6a30-4d00-4469-aab7-04718efbe3df")
-		(property "Reference" "SW25"
+		(property "Reference" "SW24"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -27475,7 +27439,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW25")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -27561,7 +27525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "628e7abd-5b4b-44b4-a987-06b6bc28470d")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 208.28 92.7099 90)
 			(effects
 				(font
@@ -27633,7 +27597,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -27649,7 +27613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62943f2a-a6cb-4fa8-ba42-7720677b225a")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 228.6 49.5299 90)
 			(effects
 				(font
@@ -27721,7 +27685,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -27738,7 +27702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fee64d-ceb1-48f7-a4bf-91e2f6bc65bf")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -27790,7 +27754,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -27875,7 +27839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "647cc53c-5af6-4d4f-8615-fcf621a93c69")
-		(property "Reference" "D54"
+		(property "Reference" "D53"
 			(at 187.96 114.2999 90)
 			(effects
 				(font
@@ -27947,7 +27911,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D54")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -27964,7 +27928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66271696-3e76-42b1-8fb0-a5f9cfe42455")
-		(property "Reference" "SW18"
+		(property "Reference" "SW17"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -28016,7 +27980,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW18")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -28031,7 +27995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6719fb00-7fd8-42ac-bcc1-074145cdfb63")
-		(property "Reference" "LED6"
+		(property "Reference" "LED5"
 			(at 147.32 189.23 0)
 			(effects
 				(font
@@ -28039,7 +28003,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 152.4 201.295 0)
 			(effects
 				(font
@@ -28092,7 +28056,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED6")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -28107,7 +28071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6995162c-5779-47e2-b64f-c62e6d4e63d7")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 86.36 71.1199 90)
 			(effects
 				(font
@@ -28179,7 +28143,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -28194,7 +28158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "699c1d6d-3e5a-4fc1-96f2-feef42d79f16")
-		(property "Reference" "LED38"
+		(property "Reference" "LED37"
 			(at 167.64 240.03 0)
 			(effects
 				(font
@@ -28202,7 +28166,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 252.095 0)
 			(effects
 				(font
@@ -28255,7 +28219,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED38")
+					(reference "LED37")
 					(unit 1)
 				)
 			)
@@ -28270,7 +28234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bbbf696-5a12-420d-aa33-5962258e93c2")
-		(property "Reference" "LED74"
+		(property "Reference" "LED73"
 			(at 350.52 290.83 0)
 			(effects
 				(font
@@ -28278,7 +28242,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 355.6 302.895 0)
 			(effects
 				(font
@@ -28331,7 +28295,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED74")
+					(reference "LED73")
 					(unit 1)
 				)
 			)
@@ -28460,7 +28424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c22504a-7d3f-4fb9-a4c3-b0698536064f")
-		(property "Reference" "SW43"
+		(property "Reference" "SW42"
 			(at 273.05 82.55 0)
 			(effects
 				(font
@@ -28512,7 +28476,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW43")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -28528,7 +28492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c2e5581-b53e-4908-8332-e82749e5a20c")
-		(property "Reference" "SW69"
+		(property "Reference" "SW68"
 			(at 212.09 125.73 0)
 			(effects
 				(font
@@ -28580,7 +28544,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW69")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -28596,7 +28560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5eda97-4c85-4d2f-b16a-bf3af480a25b")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 350.52 49.5299 90)
 			(effects
 				(font
@@ -28668,7 +28632,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -28683,7 +28647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed295d8-27f1-4bed-9e29-359ec88f64b9")
-		(property "Reference" "LED61"
+		(property "Reference" "LED60"
 			(at 370.84 265.43 0)
 			(effects
 				(font
@@ -28691,7 +28655,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 277.495 0)
 			(effects
 				(font
@@ -28744,7 +28708,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED61")
+					(reference "LED60")
 					(unit 1)
 				)
 			)
@@ -28760,7 +28724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb9e782-67c9-41f8-a81d-978258811783")
-		(property "Reference" "D52"
+		(property "Reference" "D51"
 			(at 147.32 114.2999 90)
 			(effects
 				(font
@@ -28832,7 +28796,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D52")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -28849,7 +28813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721f19d2-e34f-4341-886a-8a4c598bfb5c")
-		(property "Reference" "SW55"
+		(property "Reference" "SW54"
 			(at 212.09 104.14 0)
 			(effects
 				(font
@@ -28901,7 +28865,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW55")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -28916,7 +28880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c79d04-52fa-413e-b4cc-026945a2070f")
-		(property "Reference" "LED70"
+		(property "Reference" "LED69"
 			(at 228.6 290.83 0)
 			(effects
 				(font
@@ -28924,7 +28888,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 233.68 302.895 0)
 			(effects
 				(font
@@ -28977,7 +28941,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED70")
+					(reference "LED69")
 					(unit 1)
 				)
 			)
@@ -28993,7 +28957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f9ff9c-67af-46da-8214-4fe639aca609")
-		(property "Reference" "D68"
+		(property "Reference" "D67"
 			(at 187.96 135.8899 90)
 			(effects
 				(font
@@ -29065,7 +29029,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D68")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -29081,7 +29045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7686fdaf-b602-41dd-b5ab-1bf9919842da")
-		(property "Reference" "D58"
+		(property "Reference" "D57"
 			(at 269.24 114.2999 90)
 			(effects
 				(font
@@ -29153,7 +29117,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D58")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -29235,7 +29199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774568ba-0dc9-4ce2-8afd-9e2854962d21")
-		(property "Reference" "D62"
+		(property "Reference" "D61"
 			(at 66.04 135.8899 90)
 			(effects
 				(font
@@ -29307,7 +29271,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D62")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -29388,7 +29352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ced076-4ef3-4c49-b025-dadb8d9e26d7")
-		(property "Reference" "LED43"
+		(property "Reference" "LED42"
 			(at 269.24 240.03 0)
 			(effects
 				(font
@@ -29396,7 +29360,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 252.095 0)
 			(effects
 				(font
@@ -29449,7 +29413,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED43")
+					(reference "LED42")
 					(unit 1)
 				)
 			)
@@ -29466,7 +29430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a866a21-3b1e-42d9-a036-afdbbbeb4022")
-		(property "Reference" "SW34"
+		(property "Reference" "SW33"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -29518,7 +29482,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW34")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -29534,7 +29498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b20a03f-410f-421e-99d3-6ba153d421f3")
-		(property "Reference" "D71"
+		(property "Reference" "D70"
 			(at 248.92 135.8899 90)
 			(effects
 				(font
@@ -29606,7 +29570,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D71")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -29623,7 +29587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c81645f-d2bd-4b2a-9002-5b1430130b52")
-		(property "Reference" "SW15"
+		(property "Reference" "SW14"
 			(at 334.01 39.37 0)
 			(effects
 				(font
@@ -29675,7 +29639,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW15")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -29692,7 +29656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce63549-12ac-418f-9c0c-2fae99a50518")
-		(property "Reference" "SW14"
+		(property "Reference" "SW13"
 			(at 313.69 39.37 0)
 			(effects
 				(font
@@ -29744,7 +29708,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW14")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -29760,7 +29724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce8783a-00e2-43b4-8ffb-cadd58aabc1a")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 228.6 92.7099 90)
 			(effects
 				(font
@@ -29832,7 +29796,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -29848,7 +29812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d3e70b5-665e-4776-aedc-31e2ac64e8b4")
-		(property "Reference" "D69"
+		(property "Reference" "D68"
 			(at 208.28 135.8899 90)
 			(effects
 				(font
@@ -29920,7 +29884,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D69")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -29937,7 +29901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4b0b5a-31f9-4995-baeb-e6928b3b4f2d")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -29989,7 +29953,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -30005,7 +29969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7a85a9-4bf2-4166-9c57-4020c88c61e7")
-		(property "Reference" "D50"
+		(property "Reference" "D49"
 			(at 106.68 114.2999 90)
 			(effects
 				(font
@@ -30077,7 +30041,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D50")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -30092,7 +30056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "817b48fb-622c-4de6-b48b-0df52c3dcf03")
-		(property "Reference" "LED33"
+		(property "Reference" "LED32"
 			(at 66.04 240.03 0)
 			(effects
 				(font
@@ -30100,7 +30064,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 252.095 0)
 			(effects
 				(font
@@ -30153,7 +30117,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED33")
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -30169,7 +30133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81a73167-4e76-4e9a-97cb-7f30b7e62179")
-		(property "Reference" "D84"
+		(property "Reference" "D83"
 			(at 350.52 157.4799 90)
 			(effects
 				(font
@@ -30241,7 +30205,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D84")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -30326,7 +30290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82673cf2-2fbc-4138-a4c1-979ac5aca7ea")
-		(property "Reference" "LED65"
+		(property "Reference" "LED64"
 			(at 127 290.83 0)
 			(effects
 				(font
@@ -30334,7 +30298,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 132.08 302.895 0)
 			(effects
 				(font
@@ -30387,7 +30351,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED65")
+					(reference "LED64")
 					(unit 1)
 				)
 			)
@@ -30402,7 +30366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "832b450e-e89b-4823-a1f9-388c168ed4af")
-		(property "Reference" "D34"
+		(property "Reference" "D33"
 			(at 86.36 92.7099 90)
 			(effects
 				(font
@@ -30474,7 +30438,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D34")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -30490,7 +30454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83e9a958-b150-486a-ab0f-19b208764bea")
-		(property "Reference" "D35"
+		(property "Reference" "D34"
 			(at 106.68 92.7099 90)
 			(effects
 				(font
@@ -30562,7 +30526,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D35")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -30577,7 +30541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84779553-c111-485c-9961-135f48d63d9a")
-		(property "Reference" "LED13"
+		(property "Reference" "LED12"
 			(at 289.56 189.23 0)
 			(effects
 				(font
@@ -30585,7 +30549,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 294.64 201.295 0)
 			(effects
 				(font
@@ -30638,7 +30602,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED13")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -30653,7 +30617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86b3e98f-7c6d-4fef-8b41-248ef4498dc0")
-		(property "Reference" "LED60"
+		(property "Reference" "LED59"
 			(at 330.2 265.43 0)
 			(effects
 				(font
@@ -30661,7 +30625,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 335.28 277.495 0)
 			(effects
 				(font
@@ -30714,7 +30678,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED60")
+					(reference "LED59")
 					(unit 1)
 				)
 			)
@@ -30730,7 +30694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8720ceff-cf4d-4469-8eec-7125bf0192dc")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 187.96 49.5299 90)
 			(effects
 				(font
@@ -30802,7 +30766,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -30819,7 +30783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8771be5b-3c68-429c-9e92-5e6b193e1984")
-		(property "Reference" "SW51"
+		(property "Reference" "SW50"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -30871,7 +30835,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW51")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -30887,7 +30851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880d9c94-2378-4dd1-9ddb-c4127372f0a3")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 289.56 71.1199 90)
 			(effects
 				(font
@@ -30959,7 +30923,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -30975,7 +30939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88a4db59-6414-4cd4-8a73-900212a598a5")
-		(property "Reference" "D85"
+		(property "Reference" "D84"
 			(at 370.84 157.4799 90)
 			(effects
 				(font
@@ -31047,7 +31011,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D85")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -31062,7 +31026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88c35008-47ac-4fc7-87d1-1d62594301d7")
-		(property "Reference" "LED24"
+		(property "Reference" "LED23"
 			(at 187.96 214.63 0)
 			(effects
 				(font
@@ -31070,7 +31034,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 193.04 226.695 0)
 			(effects
 				(font
@@ -31123,7 +31087,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED24")
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -31138,7 +31102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8907a535-5154-4fc9-961a-4cd0d4aa3942")
-		(property "Reference" "LED63"
+		(property "Reference" "LED62"
 			(at 86.36 290.83 0)
 			(effects
 				(font
@@ -31146,7 +31110,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 302.895 0)
 			(effects
 				(font
@@ -31199,7 +31163,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED63")
+					(reference "LED62")
 					(unit 1)
 				)
 			)
@@ -31214,7 +31178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "897febc9-a3fa-4389-bbde-c842a56a9609")
-		(property "Reference" "LED48"
+		(property "Reference" "LED47"
 			(at 66.04 265.43 0)
 			(effects
 				(font
@@ -31222,7 +31186,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 277.495 0)
 			(effects
 				(font
@@ -31275,7 +31239,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED48")
+					(reference "LED47")
 					(unit 1)
 				)
 			)
@@ -31360,7 +31324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b225c53-f2bc-4893-9d0f-66f4318cf22d")
-		(property "Reference" "D1"
+		(property "Reference" "CAPS_D1"
 			(at 53.34 41.9099 90)
 			(effects
 				(font
@@ -31432,7 +31396,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D1")
+					(reference "CAPS_D1")
 					(unit 1)
 				)
 			)
@@ -31447,7 +31411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b31cc1d-220c-49c3-9bad-cd9d13f0ba62")
-		(property "Reference" "LED31"
+		(property "Reference" "LED30"
 			(at 330.2 214.63 0)
 			(effects
 				(font
@@ -31455,7 +31419,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 335.28 226.695 0)
 			(effects
 				(font
@@ -31508,7 +31472,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED31")
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -31525,7 +31489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4b8d60-cdd5-4c1a-a720-c6af127c4434")
-		(property "Reference" "SW13"
+		(property "Reference" "SW12"
 			(at 293.37 39.37 0)
 			(effects
 				(font
@@ -31577,7 +31541,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW13")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -31592,7 +31556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c240cb5-bcbf-4e4d-8507-ada70f6a53ef")
-		(property "Reference" "LED53"
+		(property "Reference" "LED52"
 			(at 167.64 265.43 0)
 			(effects
 				(font
@@ -31600,7 +31564,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 277.495 0)
 			(effects
 				(font
@@ -31653,7 +31617,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED53")
+					(reference "LED52")
 					(unit 1)
 				)
 			)
@@ -31670,7 +31634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c40bb8f-361e-4017-8f51-94145477d4be")
-		(property "Reference" "SW78"
+		(property "Reference" "SW77"
 			(at 110.49 147.32 0)
 			(effects
 				(font
@@ -31722,7 +31686,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW78")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -31738,7 +31702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c4755e4-1eee-40f8-8dca-508c25b7efc6")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 330.2 71.1199 90)
 			(effects
 				(font
@@ -31810,7 +31774,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -31826,7 +31790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c7cae2a-affa-4ec1-a928-5b1a33a83c8d")
-		(property "Reference" "D66"
+		(property "Reference" "D65"
 			(at 147.32 135.8899 90)
 			(effects
 				(font
@@ -31898,7 +31862,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D66")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -31980,7 +31944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3d865d-b36c-4461-be45-2f6c7ebb8f95")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 330.2 49.5299 90)
 			(effects
 				(font
@@ -32052,7 +32016,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -32067,7 +32031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f8cad84-1933-46d9-904f-e578446d6a1e")
-		(property "Reference" "LED67"
+		(property "Reference" "LED66"
 			(at 167.64 290.83 0)
 			(effects
 				(font
@@ -32075,7 +32039,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 302.895 0)
 			(effects
 				(font
@@ -32128,7 +32092,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED67")
+					(reference "LED66")
 					(unit 1)
 				)
 			)
@@ -32144,7 +32108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91678a01-3d49-48f6-909e-e17db61e9dd3")
-		(property "Reference" "D76"
+		(property "Reference" "D75"
 			(at 66.04 157.4799 90)
 			(effects
 				(font
@@ -32216,7 +32180,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D76")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -32232,7 +32196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "928f7325-11e3-4a64-8429-232abf3b40b6")
-		(property "Reference" "D80"
+		(property "Reference" "D79"
 			(at 248.92 157.4799 90)
 			(effects
 				(font
@@ -32304,7 +32268,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D80")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -32390,7 +32354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "944009bb-2d1a-4725-9adc-47b6cfff8128")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 269.24 49.5299 90)
 			(effects
 				(font
@@ -32462,7 +32426,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -32479,7 +32443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "955eb6a2-7cae-433a-8783-7e4ed047c253")
-		(property "Reference" "SW28"
+		(property "Reference" "SW27"
 			(at 273.05 60.96 0)
 			(effects
 				(font
@@ -32531,7 +32495,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW28")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -32546,7 +32510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9574a34f-2bec-481a-94d6-ce0ef5d19f8d")
-		(property "Reference" "LED22"
+		(property "Reference" "LED21"
 			(at 147.32 214.63 0)
 			(effects
 				(font
@@ -32554,7 +32518,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 152.4 226.695 0)
 			(effects
 				(font
@@ -32607,7 +32571,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED22")
+					(reference "LED21")
 					(unit 1)
 				)
 			)
@@ -32623,7 +32587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d1c8f8-8198-4edc-9a56-8bf975c08049")
-		(property "Reference" "D24"
+		(property "Reference" "D23"
 			(at 187.96 71.1199 90)
 			(effects
 				(font
@@ -32695,7 +32659,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -32777,7 +32741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97614f9d-107d-40d2-bb7b-857254fcb519")
-		(property "Reference" "LED73"
+		(property "Reference" "LED72"
 			(at 309.88 290.83 0)
 			(effects
 				(font
@@ -32785,7 +32749,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 314.96 302.895 0)
 			(effects
 				(font
@@ -32838,74 +32802,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 565.15 171.45 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "976cefe8-0865-4e75-bc52-b7eae92c52e7")
-		(property "Reference" "#PWR04"
-			(at 571.5 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 568.96 171.4501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 565.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 565.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 565.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "630b8bb8-70b3-48fa-9322-8504592d083c")
-		)
-		(instances
-			(project "Custom Mechanical Keyboard"
-				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "#PWR04")
+					(reference "LED72")
 					(unit 1)
 				)
 			)
@@ -32921,7 +32818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "980bc1fb-f074-44c9-ab0b-52fe7b7e5a8a")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 167.64 49.5299 90)
 			(effects
 				(font
@@ -32993,7 +32890,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -33009,7 +32906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98d51d39-bacb-43dc-8d54-ba07d397b9af")
-		(property "Reference" "D61"
+		(property "Reference" "D60"
 			(at 370.84 114.2999 90)
 			(effects
 				(font
@@ -33081,7 +32978,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D61")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -33098,7 +32995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "990c3a65-cbde-4fc7-a207-3866769b4baf")
-		(property "Reference" "SW70"
+		(property "Reference" "SW69"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -33150,7 +33047,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW70")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -33167,7 +33064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9987f46c-1367-4a01-9392-0d0ae42c60fa")
-		(property "Reference" "SW17"
+		(property "Reference" "SW16"
 			(at 374.65 39.37 0)
 			(effects
 				(font
@@ -33219,7 +33116,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW17")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -33236,7 +33133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99acd994-3fd3-4171-9e8f-64158be31f80")
-		(property "Reference" "SW45"
+		(property "Reference" "SW44"
 			(at 313.69 82.55 0)
 			(effects
 				(font
@@ -33288,7 +33185,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW45")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -33436,7 +33333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a4fd22a-bd49-4b73-911b-48a7d0e07bca")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 309.88 71.1199 90)
 			(effects
 				(font
@@ -33508,7 +33405,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -33524,7 +33421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6973c6-6ee9-45af-ad71-092d2f180418")
-		(property "Reference" "D48"
+		(property "Reference" "D47"
 			(at 66.04 114.2999 90)
 			(effects
 				(font
@@ -33596,7 +33493,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D48")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -33612,7 +33509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad0d4ef-9c7e-4ef4-916b-2e7430068c62")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 127 49.5299 90)
 			(effects
 				(font
@@ -33684,7 +33581,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -33701,7 +33598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9adacd19-190f-484c-a40e-0538e06e8438")
-		(property "Reference" "SW65"
+		(property "Reference" "SW64"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -33753,7 +33650,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW65")
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -33770,7 +33667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eafed8d-c506-4f80-ad6d-747a34a769e2")
-		(property "Reference" "SW12"
+		(property "Reference" "SW11"
 			(at 273.05 39.37 0)
 			(effects
 				(font
@@ -33822,7 +33719,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW12")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -33839,7 +33736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eef56da-c135-4cf7-9dbe-40872c0820b6")
-		(property "Reference" "SW71"
+		(property "Reference" "SW70"
 			(at 252.73 125.73 0)
 			(effects
 				(font
@@ -33891,7 +33788,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW71")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -33907,7 +33804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f690c72-b46b-4c80-9cb2-ee41eca201fd")
-		(property "Reference" "D64"
+		(property "Reference" "D63"
 			(at 106.68 135.8899 90)
 			(effects
 				(font
@@ -33979,7 +33876,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D64")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -33995,7 +33892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f7f67b7-8128-4a96-9d17-4970047d0a20")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 66.04 71.1199 90)
 			(effects
 				(font
@@ -34067,7 +33964,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -34083,7 +33980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a02f72d6-c92b-4165-964f-a265b9647a87")
-		(property "Reference" "D53"
+		(property "Reference" "D52"
 			(at 167.64 114.2999 90)
 			(effects
 				(font
@@ -34155,7 +34052,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D53")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -34240,7 +34137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a31e2d77-e39e-4694-b057-56f6a7276fd8")
-		(property "Reference" "LED66"
+		(property "Reference" "LED65"
 			(at 147.32 290.83 0)
 			(effects
 				(font
@@ -34248,7 +34145,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 152.4 302.895 0)
 			(effects
 				(font
@@ -34301,7 +34198,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED66")
+					(reference "LED65")
 					(unit 1)
 				)
 			)
@@ -34316,7 +34213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a466a617-b684-48ca-b35a-430f922e0c01")
-		(property "Reference" "LED47"
+		(property "Reference" "LED46"
 			(at 370.84 240.03 0)
 			(effects
 				(font
@@ -34324,7 +34221,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 375.92 252.095 0)
 			(effects
 				(font
@@ -34377,7 +34274,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED47")
+					(reference "LED46")
 					(unit 1)
 				)
 			)
@@ -34393,7 +34290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a578a672-06bb-4951-9fef-b0d69efc181a")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 269.24 71.1199 90)
 			(effects
 				(font
@@ -34465,7 +34362,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -34480,7 +34377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a61def83-0df4-444a-af71-be95798a40ee")
-		(property "Reference" "LED18"
+		(property "Reference" "LED17"
 			(at 66.04 214.63 0)
 			(effects
 				(font
@@ -34488,7 +34385,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 226.695 0)
 			(effects
 				(font
@@ -34541,7 +34438,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED18")
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -34558,7 +34455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a73bcd32-9fc1-468b-9089-5fce87577e7e")
-		(property "Reference" "SW31"
+		(property "Reference" "SW30"
 			(at 334.01 60.96 0)
 			(effects
 				(font
@@ -34610,7 +34507,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW31")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -34627,7 +34524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a78770d7-7faa-453d-a433-2ee065e2a75d")
-		(property "Reference" "SW83"
+		(property "Reference" "SW82"
 			(at 334.01 147.32 0)
 			(effects
 				(font
@@ -34679,7 +34576,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW83")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -34696,7 +34593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a96a6a40-1cbf-4487-a7ae-a02c11644d15")
-		(property "Reference" "SW67"
+		(property "Reference" "SW66"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -34748,7 +34645,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW67")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -34765,7 +34662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6e533b-0959-4a35-a389-0e85fdf50ded")
-		(property "Reference" "SW20"
+		(property "Reference" "SW19"
 			(at 110.49 60.96 0)
 			(effects
 				(font
@@ -34817,7 +34714,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW20")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -34834,7 +34731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aabe69d1-6946-4010-9252-1e3c246ebbec")
-		(property "Reference" "SW41"
+		(property "Reference" "SW40"
 			(at 232.41 82.55 0)
 			(effects
 				(font
@@ -34886,7 +34783,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW41")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -34902,7 +34799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbe9e26-d11c-4fbc-b2f4-c6dd87cdf9b7")
-		(property "Reference" "D79"
+		(property "Reference" "D78"
 			(at 167.64 157.4799 90)
 			(effects
 				(font
@@ -34974,7 +34871,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D79")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -35058,7 +34955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb9d261-c14e-4e17-9429-95cb771e3ceb")
-		(property "Reference" "SW21"
+		(property "Reference" "SW20"
 			(at 130.81 60.96 0)
 			(effects
 				(font
@@ -35110,7 +35007,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW21")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -35191,7 +35088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aed1ba71-e723-4b7d-9f15-0925c2101012")
-		(property "Reference" "LED50"
+		(property "Reference" "LED49"
 			(at 106.68 265.43 0)
 			(effects
 				(font
@@ -35199,7 +35096,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 277.495 0)
 			(effects
 				(font
@@ -35252,7 +35149,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED50")
+					(reference "LED49")
 					(unit 1)
 				)
 			)
@@ -35268,7 +35165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3159d6c-30d7-48ed-a2c7-5d22862750ef")
-		(property "Reference" "D55"
+		(property "Reference" "D54"
 			(at 208.28 114.2999 90)
 			(effects
 				(font
@@ -35340,7 +35237,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D55")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -35357,7 +35254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b32775d6-5657-4e3f-8d3d-580a52365b24")
-		(property "Reference" "SW42"
+		(property "Reference" "SW41"
 			(at 252.73 82.55 0)
 			(effects
 				(font
@@ -35409,7 +35306,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW42")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -35425,7 +35322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b342f877-f3ff-46e2-872c-59890eb96839")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 66.04 92.7099 90)
 			(effects
 				(font
@@ -35497,7 +35394,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -35513,7 +35410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b372addf-91bb-4405-b6b9-52f0c544ce07")
-		(property "Reference" "SW1"
+		(property "Reference" "CAPS_SW1"
 			(at 40.64 24.13 0)
 			(effects
 				(font
@@ -35577,7 +35474,7 @@
 		(instances
 			(project ""
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW1")
+					(reference "CAPS_SW1")
 					(unit 1)
 				)
 			)
@@ -35593,7 +35490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ca1cc0-0224-4c37-9ee7-1317a76db780")
-		(property "Reference" "D67"
+		(property "Reference" "D66"
 			(at 167.64 135.8899 90)
 			(effects
 				(font
@@ -35665,7 +35562,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D67")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -35748,7 +35645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7415d4c-a08f-43ac-ac60-e41675bdee7e")
-		(property "Reference" "SW58"
+		(property "Reference" "SW57"
 			(at 273.05 104.14 0)
 			(effects
 				(font
@@ -35800,7 +35697,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW58")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -35815,7 +35712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8303b9e-bb3d-4b7c-885c-cef90abb214a")
-		(property "Reference" "LED36"
+		(property "Reference" "LED35"
 			(at 127 240.03 0)
 			(effects
 				(font
@@ -35823,7 +35720,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 132.08 252.095 0)
 			(effects
 				(font
@@ -35876,7 +35773,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED36")
+					(reference "LED35")
 					(unit 1)
 				)
 			)
@@ -35893,7 +35790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b893b430-8494-4459-b988-fdc45f9483cd")
-		(property "Reference" "SW49"
+		(property "Reference" "SW48"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -35945,7 +35842,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW49")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -35960,7 +35857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdb6d89-a2a1-4e84-8515-1c6e6e16b337")
-		(property "Reference" "LED41"
+		(property "Reference" "LED40"
 			(at 228.6 240.03 0)
 			(effects
 				(font
@@ -35968,7 +35865,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 233.68 252.095 0)
 			(effects
 				(font
@@ -36021,7 +35918,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED41")
+					(reference "LED40")
 					(unit 1)
 				)
 			)
@@ -36037,7 +35934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd163720-f4db-4d81-8223-9f3cb92c3226")
-		(property "Reference" "D59"
+		(property "Reference" "D58"
 			(at 289.56 114.2999 90)
 			(effects
 				(font
@@ -36109,7 +36006,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D59")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -36124,7 +36021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd73727b-2ee0-45f8-994c-769ff7b2d081")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 86.36 49.5299 90)
 			(effects
 				(font
@@ -36196,7 +36093,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -36211,7 +36108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd7a38b0-769a-4f1b-b4cd-06154662a20d")
-		(property "Reference" "LED20"
+		(property "Reference" "LED19"
 			(at 106.68 214.63 0)
 			(effects
 				(font
@@ -36219,7 +36116,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 226.695 0)
 			(effects
 				(font
@@ -36272,7 +36169,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED20")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
@@ -36287,7 +36184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bebb5760-67b6-470f-93b9-ae5787c973e8")
-		(property "Reference" "LED8"
+		(property "Reference" "LED7"
 			(at 187.96 189.23 0)
 			(effects
 				(font
@@ -36295,7 +36192,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 193.04 201.295 0)
 			(effects
 				(font
@@ -36348,7 +36245,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED8")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -36365,7 +36262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf6ac380-3373-4424-abe2-749facef3d88")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 252.73 39.37 0)
 			(effects
 				(font
@@ -36417,7 +36314,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -36433,7 +36330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c119b71d-a413-4cac-aae8-ace603d141a9")
-		(property "Reference" "SW30"
+		(property "Reference" "SW29"
 			(at 313.69 60.96 0)
 			(effects
 				(font
@@ -36485,7 +36382,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW30")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -36567,7 +36464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c231d6bb-378f-495c-ac03-300e658f2255")
-		(property "Reference" "LED11"
+		(property "Reference" "LED10"
 			(at 248.92 189.23 0)
 			(effects
 				(font
@@ -36575,7 +36472,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 201.295 0)
 			(effects
 				(font
@@ -36628,7 +36525,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED11")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -36644,7 +36541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c241b5d8-9a4d-4fa0-910a-bd9833bfac92")
-		(property "Reference" "D75"
+		(property "Reference" "D74"
 			(at 370.84 135.8899 90)
 			(effects
 				(font
@@ -36716,7 +36613,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D75")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -36731,7 +36628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c296e920-80ad-4c8f-a7af-8f126f589a4c")
-		(property "Reference" "LED55"
+		(property "Reference" "LED54"
 			(at 208.28 265.43 0)
 			(effects
 				(font
@@ -36739,7 +36636,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 213.36 277.495 0)
 			(effects
 				(font
@@ -36792,7 +36689,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED55")
+					(reference "LED54")
 					(unit 1)
 				)
 			)
@@ -36808,7 +36705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c314e8f3-30d3-44c8-9f70-fa8f5d5a4ecd")
-		(property "Reference" "D73"
+		(property "Reference" "D72"
 			(at 309.88 135.8899 90)
 			(effects
 				(font
@@ -36880,7 +36777,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D73")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -36897,7 +36794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c472f8d6-1efc-41c4-8907-c1fd860777cd")
-		(property "Reference" "SW52"
+		(property "Reference" "SW51"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -36949,7 +36846,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW52")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -36966,7 +36863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c550c348-e42b-47cd-b38b-43cd5ef257a9")
-		(property "Reference" "SW27"
+		(property "Reference" "SW26"
 			(at 252.73 60.96 0)
 			(effects
 				(font
@@ -37018,7 +36915,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW27")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -37035,7 +36932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55c2420-f43d-4f02-a777-713de2c844e6")
-		(property "Reference" "SW77"
+		(property "Reference" "SW76"
 			(at 90.17 147.32 0)
 			(effects
 				(font
@@ -37087,7 +36984,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW77")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -37104,7 +37001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56267a1-81dc-42f0-a100-0dbf97ae819e")
-		(property "Reference" "SW75"
+		(property "Reference" "SW74"
 			(at 374.65 125.73 0)
 			(effects
 				(font
@@ -37156,7 +37053,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW75")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -37173,7 +37070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5946de1-6b2f-41f3-8b0d-9c943581a933")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 151.13 39.37 0)
 			(effects
 				(font
@@ -37225,7 +37122,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -37374,7 +37271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a4afff-db6f-411a-8fec-08176e7b3e5f")
-		(property "Reference" "LED23"
+		(property "Reference" "LED22"
 			(at 167.64 214.63 0)
 			(effects
 				(font
@@ -37382,7 +37279,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 226.695 0)
 			(effects
 				(font
@@ -37435,7 +37332,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED23")
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -37451,7 +37348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca312982-f749-45fc-a9e4-a6417ec20f40")
-		(property "Reference" "D44"
+		(property "Reference" "D43"
 			(at 289.56 92.7099 90)
 			(effects
 				(font
@@ -37523,7 +37420,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D44")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -37539,7 +37436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2be58d-00fb-4932-87b9-b8a58e8c2149")
-		(property "Reference" "D25"
+		(property "Reference" "D24"
 			(at 208.28 71.1199 90)
 			(effects
 				(font
@@ -37611,7 +37508,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D25")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -37695,7 +37592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2ecddf-607d-49e7-9c47-c7ebbeda9d60")
-		(property "Reference" "SW47"
+		(property "Reference" "SW46"
 			(at 374.65 82.55 0)
 			(effects
 				(font
@@ -37747,7 +37644,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW47")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -37763,7 +37660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8e2cd6-8d4b-48e9-9500-5fb1d0b72f35")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 248.92 71.1199 90)
 			(effects
 				(font
@@ -37835,7 +37732,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -38045,7 +37942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1d9bfb-5ca4-4993-b227-0cb62e7d7e6f")
-		(property "Reference" "D47"
+		(property "Reference" "D46"
 			(at 370.84 92.7099 90)
 			(effects
 				(font
@@ -38117,7 +38014,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D47")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -38201,7 +38098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d048d5d2-1743-4522-a2c7-476aa649a1b0")
-		(property "Reference" "SW48"
+		(property "Reference" "SW47"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -38253,7 +38150,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW48")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -38268,7 +38165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d10ccb8b-0f5e-4d35-bb30-fcd62f5de19a")
-		(property "Reference" "LED51"
+		(property "Reference" "LED50"
 			(at 127 265.43 0)
 			(effects
 				(font
@@ -38276,7 +38173,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 132.08 277.495 0)
 			(effects
 				(font
@@ -38329,7 +38226,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED51")
+					(reference "LED50")
 					(unit 1)
 				)
 			)
@@ -38345,7 +38242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11174da-12f7-4cfd-a4c0-44d91c3933aa")
-		(property "Reference" "D23"
+		(property "Reference" "D22"
 			(at 167.64 71.1199 90)
 			(effects
 				(font
@@ -38417,7 +38314,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D23")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -38499,7 +38396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3b593c7-ec2c-4187-8e8f-104a132bf221")
-		(property "Reference" "LED39"
+		(property "Reference" "LED38"
 			(at 187.96 240.03 0)
 			(effects
 				(font
@@ -38507,7 +38404,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 193.04 252.095 0)
 			(effects
 				(font
@@ -38560,7 +38457,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED39")
+					(reference "LED38")
 					(unit 1)
 				)
 			)
@@ -38575,7 +38472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4e9a2f2-d6e8-4b71-9fb3-114149202561")
-		(property "Reference" "LED10"
+		(property "Reference" "LED9"
 			(at 228.6 189.23 0)
 			(effects
 				(font
@@ -38583,7 +38480,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 233.68 201.295 0)
 			(effects
 				(font
@@ -38636,7 +38533,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED10")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -38653,7 +38550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6214785-1d46-42c2-98de-d03f6ca68aa5")
-		(property "Reference" "SW57"
+		(property "Reference" "SW56"
 			(at 252.73 104.14 0)
 			(effects
 				(font
@@ -38705,7 +38602,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW57")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -38721,7 +38618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64ac149-11db-4433-b016-ce9d9822010e")
-		(property "Reference" "D83"
+		(property "Reference" "D82"
 			(at 330.2 157.4799 90)
 			(effects
 				(font
@@ -38793,7 +38690,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D83")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -38808,7 +38705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d76b6470-5c38-409a-9fc7-c9fc7286b3bc")
-		(property "Reference" "LED56"
+		(property "Reference" "LED55"
 			(at 228.6 265.43 0)
 			(effects
 				(font
@@ -38816,7 +38713,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 233.68 277.495 0)
 			(effects
 				(font
@@ -38869,7 +38766,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED56")
+					(reference "LED55")
 					(unit 1)
 				)
 			)
@@ -38884,7 +38781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d89a22db-c03f-4cab-a30f-6aad81d35764")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 86.36 189.23 0)
 			(effects
 				(font
@@ -38892,7 +38789,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 91.44 201.295 0)
 			(effects
 				(font
@@ -38945,7 +38842,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -38960,7 +38857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8a20647-b0ad-4a31-a1e4-cd81ae173efd")
-		(property "Reference" "D63"
+		(property "Reference" "D62"
 			(at 86.36 135.8899 90)
 			(effects
 				(font
@@ -39032,7 +38929,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D63")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -39113,7 +39010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da28a1c3-f20c-47dc-bb5b-cb0187cc9616")
-		(property "Reference" "LED26"
+		(property "Reference" "LED25"
 			(at 228.6 214.63 0)
 			(effects
 				(font
@@ -39121,7 +39018,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 233.68 226.695 0)
 			(effects
 				(font
@@ -39174,7 +39071,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED26")
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -39191,7 +39088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da56c8bd-a4b6-465e-bd3d-782afdc56ab7")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 212.09 39.37 0)
 			(effects
 				(font
@@ -39243,7 +39140,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -39258,7 +39155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db475711-2371-4ade-9a7d-75a13735db7f")
-		(property "Reference" "LED72"
+		(property "Reference" "LED71"
 			(at 269.24 290.83 0)
 			(effects
 				(font
@@ -39266,7 +39163,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 302.895 0)
 			(effects
 				(font
@@ -39319,7 +39216,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED72")
+					(reference "LED71")
 					(unit 1)
 				)
 			)
@@ -39335,7 +39232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db73f2c7-8ab3-4f12-b7d9-24e5d9dd34f7")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 147.32 49.5299 90)
 			(effects
 				(font
@@ -39407,7 +39304,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -39423,7 +39320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd17fd1-20aa-4763-8c90-cace579e574f")
-		(property "Reference" "D45"
+		(property "Reference" "D44"
 			(at 309.88 92.7099 90)
 			(effects
 				(font
@@ -39495,7 +39392,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D45")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -39512,7 +39409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd76c4e-d32a-41ff-8b22-6bfec752b53e")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 191.77 39.37 0)
 			(effects
 				(font
@@ -39564,7 +39461,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -39581,7 +39478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd45f5e5-20ab-43b9-949b-0b09d5cee937")
-		(property "Reference" "SW19"
+		(property "Reference" "SW18"
 			(at 90.17 60.96 0)
 			(effects
 				(font
@@ -39633,7 +39530,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW19")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -39782,7 +39679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de8cd334-9a4f-4dfc-9173-ef194d3f5ccb")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 66.04 189.23 0)
 			(effects
 				(font
@@ -39790,7 +39687,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 71.12 201.295 0)
 			(effects
 				(font
@@ -39843,7 +39740,7 @@
 		(instances
 			(project ""
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -39858,7 +39755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfed5231-43a0-4132-a6e7-0a507a667332")
-		(property "Reference" "LED21"
+		(property "Reference" "LED20"
 			(at 127 214.63 0)
 			(effects
 				(font
@@ -39866,7 +39763,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 132.08 226.695 0)
 			(effects
 				(font
@@ -39919,7 +39816,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED21")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -40002,7 +39899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f8d4fc-af1f-4590-9e8d-37111f741c16")
-		(property "Reference" "D51"
+		(property "Reference" "D50"
 			(at 127 114.2999 90)
 			(effects
 				(font
@@ -40074,7 +39971,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D51")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -40089,7 +39986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22b15ea-6635-4004-a939-e3b6f6b42339")
-		(property "Reference" "LED81"
+		(property "Reference" "LED80"
 			(at 269.24 316.23 0)
 			(effects
 				(font
@@ -40097,7 +39994,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 274.32 328.295 0)
 			(effects
 				(font
@@ -40150,7 +40047,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED81")
+					(reference "LED80")
 					(unit 1)
 				)
 			)
@@ -40232,7 +40129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e39bdeed-d3fe-40fb-8638-76d10fc41875")
-		(property "Reference" "LED79"
+		(property "Reference" "LED78"
 			(at 167.64 316.23 0)
 			(effects
 				(font
@@ -40240,7 +40137,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 328.295 0)
 			(effects
 				(font
@@ -40293,7 +40190,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED79")
+					(reference "LED78")
 					(unit 1)
 				)
 			)
@@ -40308,7 +40205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e43feb9e-3469-4014-b4d3-69818ef76af3")
-		(property "Reference" "LED16"
+		(property "Reference" "LED15"
 			(at 350.52 189.23 0)
 			(effects
 				(font
@@ -40316,7 +40213,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 355.6 201.295 0)
 			(effects
 				(font
@@ -40369,7 +40266,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED16")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -40385,7 +40282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45b2fa0-8668-4000-aa08-368b4273dab4")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 248.92 49.5299 90)
 			(effects
 				(font
@@ -40457,7 +40354,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -40473,7 +40370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b1d700-6098-4512-a146-b2921e906e5e")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 208.28 49.5299 90)
 			(effects
 				(font
@@ -40545,7 +40442,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -40562,7 +40459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b474fe-52bf-428a-938b-218f5215adc9")
-		(property "Reference" "SW37"
+		(property "Reference" "SW36"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -40614,7 +40511,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW37")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -40629,7 +40526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4c4fb3b-9cf1-4ac8-8d65-fb92f3c690ba")
-		(property "Reference" "LED82"
+		(property "Reference" "LED81"
 			(at 309.88 316.23 0)
 			(effects
 				(font
@@ -40637,7 +40534,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 314.96 328.295 0)
 			(effects
 				(font
@@ -40690,7 +40587,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED82")
+					(reference "LED81")
 					(unit 1)
 				)
 			)
@@ -40706,7 +40603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57b07b3-1ee6-4bf0-9364-c7071a30feff")
-		(property "Reference" "D86"
+		(property "Reference" "ESD1"
 			(at 487.68 256.54 90)
 			(effects
 				(font
@@ -40765,7 +40662,7 @@
 		(instances
 			(project ""
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D86")
+					(reference "ESD1")
 					(unit 1)
 				)
 			)
@@ -40782,7 +40679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5aeb2d1-780b-41f9-9aa5-3696a3c3e359")
-		(property "Reference" "SW85"
+		(property "Reference" "SW84"
 			(at 374.65 147.32 0)
 			(effects
 				(font
@@ -40834,7 +40731,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW85")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -40850,7 +40747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e64320a5-d769-4bb1-b51c-732441a3bcaf")
-		(property "Reference" "SW32"
+		(property "Reference" "SW31"
 			(at 374.65 60.96 0)
 			(effects
 				(font
@@ -40902,7 +40799,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW32")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -40918,7 +40815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6a2a481-2e1a-4490-9c71-ef5d6b560a0b")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 228.6 71.1199 90)
 			(effects
 				(font
@@ -40990,7 +40887,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -41007,7 +40904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7242ed7-a5ff-462f-a9bd-f3095295c1e0")
-		(property "Reference" "SW64"
+		(property "Reference" "SW63"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -41059,7 +40956,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW64")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -41074,7 +40971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e85d16d2-ab62-4545-a335-01f1cc685b55")
-		(property "Reference" "LED27"
+		(property "Reference" "LED26"
 			(at 248.92 214.63 0)
 			(effects
 				(font
@@ -41082,7 +40979,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 254 226.695 0)
 			(effects
 				(font
@@ -41135,7 +41032,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED27")
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -41152,7 +41049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91d6aa3-5925-49ed-b593-e5008ff24564")
-		(property "Reference" "SW35"
+		(property "Reference" "SW34"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -41204,7 +41101,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW35")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -41291,7 +41188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0c030a-71e2-4a73-b018-4cfc96c0a271")
-		(property "Reference" "SW22"
+		(property "Reference" "SW21"
 			(at 151.13 60.96 0)
 			(effects
 				(font
@@ -41343,7 +41240,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW22")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -41360,7 +41257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb22fb3d-0583-4b4b-99f2-b31f108b65d5")
-		(property "Reference" "SW36"
+		(property "Reference" "SW35"
 			(at 130.81 82.55 0)
 			(effects
 				(font
@@ -41412,7 +41309,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW36")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -41429,7 +41326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed641491-089c-45ad-846d-f10c82bccb96")
-		(property "Reference" "SW68"
+		(property "Reference" "SW67"
 			(at 191.77 125.73 0)
 			(effects
 				(font
@@ -41481,7 +41378,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW68")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -41498,7 +41395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd4f8b7-1201-4fe3-aa22-07370a3a187b")
-		(property "Reference" "SW16"
+		(property "Reference" "SW15"
 			(at 354.33 39.37 0)
 			(effects
 				(font
@@ -41550,7 +41447,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW16")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -41565,7 +41462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f00a0404-3e0f-4488-b206-11ee8fb330e6")
-		(property "Reference" "LED52"
+		(property "Reference" "LED51"
 			(at 147.32 265.43 0)
 			(effects
 				(font
@@ -41573,7 +41470,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 152.4 277.495 0)
 			(effects
 				(font
@@ -41626,7 +41523,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED52")
+					(reference "LED51")
 					(unit 1)
 				)
 			)
@@ -41643,7 +41540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0cd1a8f-5d42-4aa6-8432-4ca5d869cad5")
-		(property "Reference" "SW24"
+		(property "Reference" "SW23"
 			(at 191.77 60.96 0)
 			(effects
 				(font
@@ -41695,7 +41592,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW24")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -41712,7 +41609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f252de48-6c75-459c-be8e-f56d25ef8fe5")
-		(property "Reference" "SW62"
+		(property "Reference" "SW61"
 			(at 69.85 125.73 0)
 			(effects
 				(font
@@ -41764,7 +41661,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW62")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -41779,7 +41676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f34578a1-b5e1-4fb4-a030-dbfa0cb68788")
-		(property "Reference" "LED69"
+		(property "Reference" "LED68"
 			(at 208.28 290.83 0)
 			(effects
 				(font
@@ -41787,7 +41684,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 213.36 302.895 0)
 			(effects
 				(font
@@ -41840,7 +41737,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED69")
+					(reference "LED68")
 					(unit 1)
 				)
 			)
@@ -41857,7 +41754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f47e8663-5395-4ced-aac6-459b01c7f5c6")
-		(property "Reference" "SW59"
+		(property "Reference" "SW58"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -41909,7 +41806,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW59")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -41926,7 +41823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e4cb65-09f4-4f1c-a732-431c3a183427")
-		(property "Reference" "SW50"
+		(property "Reference" "SW49"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -41978,7 +41875,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW50")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -41993,7 +41890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9c869c4-289b-4323-8064-0be3c26faf2f")
-		(property "Reference" "LED46"
+		(property "Reference" "LED45"
 			(at 350.52 240.03 0)
 			(effects
 				(font
@@ -42001,7 +41898,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 355.6 252.095 0)
 			(effects
 				(font
@@ -42054,7 +41951,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED46")
+					(reference "LED45")
 					(unit 1)
 				)
 			)
@@ -42069,7 +41966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faaed77e-d970-417b-8401-6da94dadc0f5")
-		(property "Reference" "LED7"
+		(property "Reference" "LED6"
 			(at 167.64 189.23 0)
 			(effects
 				(font
@@ -42077,7 +41974,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 172.72 201.295 0)
 			(effects
 				(font
@@ -42130,7 +42027,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED7")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -42146,7 +42043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc516cc8-203e-4a9b-a7d0-a5a058384b46")
-		(property "Reference" "D17"
+		(property "Reference" "D16"
 			(at 370.84 49.5299 90)
 			(effects
 				(font
@@ -42218,7 +42115,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D17")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -42233,7 +42130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe47e1e2-afcb-4ddb-955c-8f2a006f70a3")
-		(property "Reference" "LED14"
+		(property "Reference" "LED13"
 			(at 309.88 189.23 0)
 			(effects
 				(font
@@ -42241,7 +42138,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 314.96 201.295 0)
 			(effects
 				(font
@@ -42294,7 +42191,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED14")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -42310,7 +42207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fec666bc-e486-45fc-9942-ba3acdf983b2")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 106.68 71.1199 90)
 			(effects
 				(font
@@ -42382,7 +42279,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -42397,7 +42294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff0d2ef8-2ae5-4161-8114-8ca11f882f6e")
-		(property "Reference" "LED4"
+		(property "Reference" "LED3"
 			(at 106.68 189.23 0)
 			(effects
 				(font
@@ -42405,7 +42302,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812MINI-E_Rev"
 			(at 111.76 201.295 0)
 			(effects
 				(font
@@ -42458,7 +42355,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "LED4")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -42474,7 +42371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff9cfc18-11fc-46ad-ad14-9059f0720ce3")
-		(property "Reference" "D82"
+		(property "Reference" "D81"
 			(at 309.88 157.4799 90)
 			(effects
 				(font
@@ -42546,73 +42443,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "D82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "keyboard_parts:LED")
-		(at 557.53 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffe63b95-2daa-4d13-aa1e-2acdf9a5507f")
-		(property "Reference" "CAPS1"
-			(at 561.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 561.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Keyboard_Parts_Footprint:LED_3020_REFLOW"
-			(at 557.53 173.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 557.53 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 557.53 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe2e87ac-4173-45ea-be99-9c4e1eefb66c")
-		)
-		(pin "2"
-			(uuid "70801ca6-c381-4e9a-9ee6-80da7c5954a4")
-		)
-		(instances
-			(project ""
-				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "CAPS1")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -42629,7 +42460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff314ab-1849-4f92-8a87-633dd82f6085")
-		(property "Reference" "SW53"
+		(property "Reference" "SW52"
 			(at 171.45 104.14 0)
 			(effects
 				(font
@@ -42681,7 +42512,7 @@
 		(instances
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "SW53")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
