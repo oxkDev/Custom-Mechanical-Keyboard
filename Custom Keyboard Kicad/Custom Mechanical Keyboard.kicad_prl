@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 19,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_575d55f0",
+    "visible_layers": "00000000_00000000_55555555_575d5575",
     "zone_display_mode": 0
   },
   "git": {
@@ -88,16 +88,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112
+      155,
+      143,
+      93,
+      66,
+      93,
+      93,
+      93,
+      69,
+      93,
+      93
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -117,15 +117,15 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": false,
-      "images": false,
-      "labels": false,
+      "graphics": true,
+      "images": true,
+      "labels": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pins": false,
+      "otherItems": true,
+      "pins": true,
       "symbols": true,
-      "text": false,
-      "wires": false
+      "text": true,
+      "wires": true
     }
   }
 }
