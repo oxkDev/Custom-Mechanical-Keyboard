@@ -1,4 +1,4 @@
-27475891937120112
+27479418478546477
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69514,7 +69514,7 @@ SW_MX_Kailh_Choc_V1V2_Mill-Max_Hybrid
 Compatible with Cherry MX, Kailh Choc V1 (PG1350) and Choc V2 (PG1353) mechanical keyboard switch, through-hole soldering, single-sided mounting.
 switch, low_profile
 0
-7
+9
 2
 Key_Switches_Low_Profile
 SW_MX_Kailh_Choc_V1V2_THT_Hybrid
@@ -69847,6 +69847,13 @@ D_SOD123
 2
 Keyboard_Parts_Footprint
 D_SOD123W_hand
+
+
+0
+2
+2
+Keyboard_Parts_Footprint
+D_SOD123_Rev
 
 
 0
@@ -76553,6 +76560,13 @@ usb usb-c 2.0 pd
 17
 PCM_marbastlib-various
 USB_C_Receptacle_HRO_TYPE-C-31-M-14
+USB Type-C receptacle for USB 2.0 and PD
+usb usb-c 2.0 pd
+0
+20
+17
+PCM_marbastlib-various
+USB_C_Receptacle_HRO_TYPE-C-31-M-14_(polygon_edge)
 USB Type-C receptacle for USB 2.0 and PD
 usb usb-c 2.0 pd
 0

@@ -84,89 +84,36 @@
 		(layer "F.SilkS")
 		(uuid "1ec592e4-9b63-4484-bc94-9c983362162e")
 	)
-	(fp_line
-		(start -1.8 -1.4)
-		(end -1.8 1.4)
+	(fp_poly
+		(pts
+			(arc
+				(start -1.6 -1.6)
+				(mid -1.741421 -1.541421)
+				(end -1.8 -1.4)
+			)
+			(arc
+				(start -1.8 1.4)
+				(mid -1.741421 1.541421)
+				(end -1.6 1.6)
+			)
+			(arc
+				(start 1.6 1.6)
+				(mid 1.741421 1.541421)
+				(end 1.8 1.4)
+			)
+			(arc
+				(start 1.8 -1.4)
+				(mid 1.741421 -1.541421)
+				(end 1.6 -1.6)
+			)
+		)
 		(stroke
 			(width 0.02)
-			(type default)
+			(type solid)
 		)
+		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "6e5f6111-bc47-4026-8010-2923e4955574")
-	)
-	(fp_line
-		(start -1.6 -1.6)
-		(end 1.6 -1.6)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2772180c-7ce5-403d-8251-e4156915fb63")
-	)
-	(fp_line
-		(start -1.6 1.6)
-		(end 1.6 1.6)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "355d9115-54a2-4310-8149-e0d1af3aeb7b")
-	)
-	(fp_line
-		(start 1.8 -1.4)
-		(end 1.8 1.4)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "00100bc2-688f-4e78-b533-c446fcad5ec2")
-	)
-	(fp_arc
-		(start -1.799999 -1.399999)
-		(mid -1.741421 -1.54142)
-		(end -1.6 -1.599999)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8b4c3ad1-6d04-4baf-b308-7b08c12bb9c1")
-	)
-	(fp_arc
-		(start -1.6 1.6)
-		(mid -1.741421 1.541421)
-		(end -1.8 1.4)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "907bbf8c-1293-4958-9993-201ffb0084ad")
-	)
-	(fp_arc
-		(start 1.6 -1.6)
-		(mid 1.741421 -1.541421)
-		(end 1.8 -1.4)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "250227a6-06c0-44ed-8ba9-f64b3f986e1f")
-	)
-	(fp_arc
-		(start 1.8 1.4)
-		(mid 1.741421 1.541421)
-		(end 1.6 1.6)
-		(stroke
-			(width 0.02)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "54f25349-fef1-4ce5-8030-8b09dd3b4710")
+		(uuid "2df995b3-7004-4ba7-9020-2bcd8db79278")
 	)
 	(fp_line
 		(start -3.65 -1.85)
@@ -282,30 +229,30 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" connect rect
 		(at -2.6 -0.75)
-		(size 1.6 0.82)
+		(size 1.5 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "76f7fb5b-7e14-4793-b689-68ef782a5edc")
 	)
-	(pad "2" smd rect
+	(pad "2" connect rect
 		(at -2.6 0.75)
-		(size 1.6 0.82)
+		(size 1.5 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5c028e7c-0d42-4e5b-9224-4ed2fb6aa7dd")
 	)
-	(pad "3" smd rect
+	(pad "3" connect rect
 		(at 2.6 -0.75)
-		(size 1.6 0.82)
+		(size 1.5 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "00910203-955d-4163-88b1-15d2cd7878f3")
 	)
-	(pad "4" smd roundrect
+	(pad "4" connect roundrect
 		(at 2.6 0.75)
-		(size 1.6 0.82)
+		(size 1.5 0.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.5)

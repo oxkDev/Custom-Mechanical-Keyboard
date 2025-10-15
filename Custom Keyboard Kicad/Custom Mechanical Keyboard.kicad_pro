@@ -502,10 +502,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../Custom Keyboard Gerber/",
+      "pos_files": "../Custom Keyboard Exports/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Custom Mechanical Keyboard.step",
       "svg": "",
       "vrml": ""
     },
@@ -513,7 +513,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\Custom Keyboard Exports\\Custom Mechanical Keyboard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
