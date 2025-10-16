@@ -7235,6 +7235,10 @@
 		(uuid "38661a6a-1c9c-4829-aa10-83def587e999")
 	)
 	(no_connect
+		(at 535.94 161.29)
+		(uuid "564a82f4-8526-405d-9fc3-3b4aa22238e8")
+	)
+	(no_connect
 		(at 382.27 322.58)
 		(uuid "8cd1f894-5ba0-42b5-92c7-310cf741ef05")
 	)
@@ -8115,16 +8119,6 @@
 			(type default)
 		)
 		(uuid "12a1c07d-b5a2-4dac-97a5-e332b2e74e95")
-	)
-	(wire
-		(pts
-			(xy 551.18 160.02) (xy 551.18 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1326ecb0-9f38-433c-a706-b38231f53696")
 	)
 	(wire
 		(pts
@@ -10208,16 +10202,6 @@
 			(type default)
 		)
 		(uuid "41100fb2-e988-4bb0-a139-8d0b8281937a")
-	)
-	(wire
-		(pts
-			(xy 535.94 161.29) (xy 551.18 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411652ad-fab9-4925-b8dd-9f1cf746f2b0")
 	)
 	(wire
 		(pts
@@ -27497,7 +27481,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "4d55d677-28e2-44ec-80eb-b1fb09783a12")
 		(property "Reference" "J2"
@@ -29934,7 +29918,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "6476122a-9068-4e5c-a2cb-d078674dde93")
 		(property "Reference" "R2"
@@ -31510,72 +31494,6 @@
 			(project "Custom Mechanical Keyboard"
 				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
 					(reference "D61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 551.18 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "78ee838e-aa86-459a-a60e-5ccb915053a4")
-		(property "Reference" "NRST1"
-			(at 552.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 552.45 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 556.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 556.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 551.18 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b052a22-47ef-40ed-9459-fc138bb8c8a4")
-		)
-		(instances
-			(project ""
-				(path "/bf85d36b-b543-4af2-8831-9827a94ddedd"
-					(reference "NRST1")
 					(unit 1)
 				)
 			)
@@ -33560,7 +33478,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "8a7af1c8-c9c3-4f20-a771-96c479c14254")
 		(property "Reference" "R1"
