@@ -502,8 +502,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Custom Keyboard Exports/Gerber (JLCPCB)/",
-      "pos_files": "../Custom Keyboard Exports/",
+      "plot": "../Custom Keyboard Exports/V0.2/Gerber (JLCPCB)/",
+      "pos_files": "../Custom Keyboard Exports/V0.2/",
       "specctra_dsn": "",
       "step": "Custom Mechanical Keyboard.step",
       "svg": "",
@@ -513,7 +513,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\Custom Keyboard Exports\\Custom Mechanical Keyboard.csv",
+    "bom_export_filename": "..\\Custom Keyboard Exports\\V0.2\\Custom Mechanical Keyboard BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

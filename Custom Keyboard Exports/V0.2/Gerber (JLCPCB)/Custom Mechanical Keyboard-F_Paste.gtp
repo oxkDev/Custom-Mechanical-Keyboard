@@ -1,0 +1,131 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*
+G04 #@! TF.CreationDate,2025-10-25T00:51:22+08:00*
+G04 #@! TF.ProjectId,Custom Mechanical Keyboard,43757374-6f6d-4204-9d65-6368616e6963,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-25 00:51:22*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.300000X-0.950000X0.700000X-0.950000X-0.700000X0.950000X-0.700000X0.950000X0.700000X0*%
+%ADD11RoundRect,0.075000X-0.600000X0.075000X-0.600000X-0.075000X0.600000X-0.075000X0.600000X0.075000X0*%
+%ADD12RoundRect,0.150000X0.150000X-0.512500X0.150000X0.512500X-0.150000X0.512500X-0.150000X-0.512500X0*%
+%ADD13R,0.820000X1.500000*%
+%ADD14Outline5P,-0.750000X0.410000X0.750000X0.410000X0.750000X0.000000X0.340000X-0.410000X-0.750000X-0.410000X90.000000*%
+G04 APERTURE END LIST*
+D10*
+X58375000Y-101940000D03*
+X58375000Y-89060000D03*
+D11*
+X60750000Y-100250000D03*
+X60750000Y-99750000D03*
+X60750000Y-99250000D03*
+X60750000Y-98750000D03*
+X60750000Y-98250000D03*
+X60750000Y-97750000D03*
+X60750000Y-97250000D03*
+X60750000Y-96750000D03*
+X60750000Y-96250000D03*
+X60750000Y-95750000D03*
+X60750000Y-95250000D03*
+X60750000Y-94750000D03*
+X60750000Y-94250000D03*
+X60750000Y-93750000D03*
+X60750000Y-93250000D03*
+X60750000Y-92750000D03*
+X60750000Y-92250000D03*
+X60750000Y-91750000D03*
+X60750000Y-91250000D03*
+X60750000Y-90750000D03*
+D12*
+X48350000Y-105150000D03*
+X49300000Y-105150000D03*
+X50250000Y-105150000D03*
+X50250000Y-102875000D03*
+X49300000Y-102875000D03*
+X48350000Y-102875000D03*
+D11*
+X71500000Y-90750000D03*
+X71500000Y-91250000D03*
+X71500000Y-91750000D03*
+X71500000Y-92250000D03*
+X71500000Y-92750000D03*
+X71500000Y-93250000D03*
+X71500000Y-93750000D03*
+X71500000Y-94250000D03*
+X71500000Y-94750000D03*
+X71500000Y-95250000D03*
+X71500000Y-95750000D03*
+X71500000Y-96250000D03*
+X71500000Y-96750000D03*
+X71500000Y-97250000D03*
+X71500000Y-97750000D03*
+X71500000Y-98250000D03*
+X71500000Y-98750000D03*
+X71500000Y-99250000D03*
+X71500000Y-99750000D03*
+X71500000Y-100250000D03*
+D10*
+X69125000Y-89060000D03*
+X69125000Y-101940000D03*
+D13*
+X69700000Y-116900000D03*
+X71200000Y-116900000D03*
+X69700000Y-111700000D03*
+D14*
+X71200000Y-111700000D03*
+M02*

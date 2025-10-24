@@ -173,7 +173,7 @@
 		(uuid "5ea00880-4c9b-4c84-af8b-b3df8e8bf61c")
 	)
 	(fp_rect
-		(start -41.6 -7)
+		(start -41.6 -6.5)
 		(end -34.6 10)
 		(stroke
 			(width 0.1)
@@ -184,7 +184,7 @@
 		(uuid "123bd874-7f6f-48d8-9710-67defedf90e6")
 	)
 	(fp_rect
-		(start 34.6 -7)
+		(start 34.6 -6.5)
 		(end 41.6 10)
 		(stroke
 			(width 0.1)
