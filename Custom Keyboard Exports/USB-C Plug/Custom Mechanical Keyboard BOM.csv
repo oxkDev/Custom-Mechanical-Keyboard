@@ -1,3 +1,3 @@
 Designator,Qty,Value,Type,Manufacturer,Comment,Footprint,Description
-J1,1,USB_C_Receptacle_USB2.0_16P,Thru-Hole,Korean Hroparts,TYPE-C-31-M-14,PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-14_(polygon_edge),USB 2.0-only 16P Type-C Receptacle connector
+J1,1,USB_C_Receptacle_USB2.0_16P,Thru-Hole,Korean Hroparts,TYPE-C-31-M-12,PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12,USB 2.0-only 16P Type-C Receptacle connector
 "R1,R2",2,5.1k,SMD,Panasonic,ERJ-8ENF5101V,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,"5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
