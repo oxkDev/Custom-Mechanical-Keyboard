@@ -31975,7 +31975,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d55d677-28e2-44ec-80eb-b1fb09783a12")
@@ -36108,7 +36108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-14_(polygon_edge)"
+		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 461.01 233.68 0)
 			(effects
 				(font
@@ -36135,7 +36135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part #" ""
+		(property "MFG Part #" "TYPE-C-31-M-14"
 			(at 457.2 233.68 0)
 			(effects
 				(font
@@ -36144,7 +36144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Korean Hroparts"
 			(at 457.2 233.68 0)
 			(effects
 				(font
@@ -36153,7 +36153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "Thru-Hole"
 			(at 457.2 233.68 0)
 			(effects
 				(font
