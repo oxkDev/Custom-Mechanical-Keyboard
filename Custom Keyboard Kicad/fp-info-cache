@@ -1,4 +1,4 @@
-27479426526079416
+27483101032866897
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -76560,6 +76560,13 @@ usb usb-c 2.0 pd
 17
 PCM_marbastlib-various
 USB_C_Receptacle_HRO_TYPE-C-31-M-14
+USB Type-C receptacle for USB 2.0 and PD
+usb usb-c 2.0 pd
+0
+20
+17
+PCM_marbastlib-various
+USB_C_Receptacle_HRO_TYPE-C-31-M-14 (corrected)
 USB Type-C receptacle for USB 2.0 and PD
 usb usb-c 2.0 pd
 0
